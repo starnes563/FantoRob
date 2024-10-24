@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8413902974992131432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8413902974992131446}
+  - component: {fileID: 8413902974992131447}
+  - component: {fileID: 8413902974992131445}
+  - component: {fileID: 8413902974992131442}
+  - component: {fileID: 8413902974992131444}
+  - component: {fileID: 6317339613383401959}
+  - component: {fileID: 7876669381190965308}
+  m_Layer: 0
+  m_Name: GuaraRobAbertura
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8413902974992131446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8413902974992131432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.29, y: -0.42, z: 0}
+  m_LocalScale: {x: 0.48332015, y: 0.48332015, z: 0.48332015}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8413902974992131447
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8413902974992131432}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 6af75c003b544e54bacb79261068e866, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 12.55, y: 16.45}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &8413902974992131445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8413902974992131432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb2a741559a1804e9ceec2c05775a33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MeuSprite: {fileID: 21300000, guid: 9c52fb71645fb86408042089e0c10a47, type: 3}
+  SNucleo: {fileID: 0}
+  SArma: {fileID: 0}
+  Nome: GUARAROB
+  Integridade: 2987
+  Bateria: 1550
+  Resistencia: 853
+  Velocidade: 110
+  Ataque: 235
+  AtaqueEnergetico: 98
+  IntegridadeAtual: 0
+  BateriaAtual: 0
+  NucleoFisico: {fileID: 11400000, guid: fe16186e43eb48a4c8f8b1af9f1b4dcc, type: 2}
+  Acoes: 6
+  Nucleo: 0
+  SpriteNucleo: {fileID: 21300000, guid: b646e0fffc1c28542bc25135b8f44a65, type: 3}
+  Arma: 0
+  armaAtual: 0
+  keyloggerVariant: 2
+  EnergiaOV: 20
+  ResistenciaOV: 0
+  VelocidadeOV: 10
+  AtaqueOV: 25
+  AtaqueEnergeticoOV: 0
+  "FatordeRecupera\xE7\xE3o": 12
+  Broke: {r: 0.9528302, g: 0.1033731, b: 0.1033731, a: 1}
+  Overlock: {r: 0, g: 0.12923098, b: 1, a: 1}
+  Infeccao: {r: 0.51160675, g: 0, b: 0.6037736, a: 1}
+  Spy: 0
+  Keylogger: 0
+  Trojan: 0
+  Ranson: 0
+  Worm: 0
+  Virus: 0
+  AumentoSpy: 0
+  KeyloggerAtual: 0
+  WormPercentual: 0
+  VirusPercentual: 0
+--- !u!114 &8413902974992131442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8413902974992131432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 099fb6cfd6526624a8609cf3a2bf9164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParticulasDano: {fileID: 1268055038514288914, guid: a7ad0172e9afa444cb24eee42bbf16a1,
+    type: 3}
+  ParticulasCura: {fileID: 8807238205128672065, guid: 5a9a4e5466a4c9d4b83ff4aa77a27c78,
+    type: 3}
+  AntiVirus: {fileID: 9132199069710832988, guid: 861f845298270fe4cbbac95f9c8392ad,
+    type: 3}
+  FloatText: {fileID: 1826197249065953777, guid: a06780fcf3605ed41bb6c328f1c3c613,
+    type: 3}
+  OverlockAnimation: {fileID: 0}
+  SliderIntegridade: {fileID: 0}
+  SliderResistencia: {fileID: 0}
+  SliderBateria: {fileID: 0}
+  SliderAcoes: []
+  TextoIntegridadeAtual: {fileID: 0}
+  TextoResistenciaAtual: {fileID: 0}
+  MyStatus: {fileID: 0}
+  Weapon: {fileID: 0}
+  MyWeapon: {fileID: 8413902974992131444}
+  integridadeAtual: 0
+  bateriaAtual: 0
+  ResistenciaAtual: 0
+  VelocidadeAtual: 0
+  AtaqueAtual: 0
+  AtaqueEnergeticoAtual: 0
+  acoesAtual: 0
+  keyloggerVariant: 0
+  Spy: 0
+  Keylogger: 0
+  Trojan: 0
+  Ranson: 0
+  Worm: 0
+  Virus: 0
+  broke: 0
+  Overlock: 0
+  RobotAnimator: {fileID: 0}
+  battleManager: {fileID: 0}
+  MinhaCor: {r: 0, g: 0, b: 0, a: 0}
+  Ativo: 0
+  screemManager: {fileID: 0}
+  GerenciadorDialogo: {fileID: 0}
+  TextoDeBatalha: {fileID: 0}
+  KO: 0
+  shaker: {fileID: 0}
+  MeuTurno: 0
+  MeuBotao: {fileID: 0}
+  AnimacaoFumaca: {fileID: 5825479988156187679, guid: bfddb7b0373366c4085c65187448c272,
+    type: 3}
+  PlayerRobot: 1
+--- !u!114 &8413902974992131444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8413902974992131432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e727b922e434f6d4daad4efac18ce352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BotoesDeAtaque: []
+  battleManager: {fileID: 0}
+  gerenciadorDialogo: {fileID: 0}
+  textoDeBatalha: {fileID: 0}
+  AnimacaoEspecial: {fileID: 0}
+  animacaoexecutando: 0
+  RobotAnimator: {fileID: 0}
+  weapon: {fileID: 0}
+--- !u!114 &6317339613383401959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8413902974992131432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9200bad827c24c4a843374a85aa20f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &7876669381190965308
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8413902974992131432}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

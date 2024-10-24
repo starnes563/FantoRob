@@ -1,0 +1,13 @@
+Fantohelper: Hello, I'm the Fantohelper, here to assist you throughout the championship.
+Fantohelper: This is the seventh challenge, THE ENTERTAINMENT CENTER, where you will encounter FantoRobs at Advanced level 1, 2, 3, and Professional.
+Fantohelper: We're nearing the end of the championship, huh? This is the final challenge.
+Fantohelper: In this challenge, doors and corridors are locked by special doors that can only be opened by cards at the door's level.
+Fantohelper: To level up your card, you must find and use the card magnetizing machine.
+Fantohelper: But pay attention, it won't work if you immediately use the machine for the highest level card. The machine only magnetizes the card to the previous level.
+Fantohelper: So you'll need to find them in order.
+Fantohelper: Another thing, there's an invisible demagnetizing wave at the entrance. So, if you return here for any reason...
+Fantohelper: Your card will revert to level zero, unless you've already found the level 5 machine.
+Fantohelper: In that case, your card won't demagnetize anymore, and you can proceed directly to the challenge leader.
+Fantohelper: As always, if you're having too much difficulty, your FantoRobs might be too weak for the challenge.
+Fantohelper: Remember to visit the FantoLab regularly to enhance them with the items you acquire.
+Fantohelper: Good luck!

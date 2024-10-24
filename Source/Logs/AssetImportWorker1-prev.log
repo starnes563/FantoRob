@@ -1,0 +1,1294 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'pt' Physical Memory: 8072 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Denny/Documents/Batalha dos Robos
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50096
+Successfully changed project path to: C:/Users/Denny/Documents/Batalha dos Robos
+C:/Users/Denny/Documents/Batalha dos Robos
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 257.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Denny/Documents/Batalha dos Robos/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.5749
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.001512 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 206.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.710 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006744 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 234.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.2.1f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll disabled
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.367 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3682 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.2 MB.
+System memory in use after: 175.4 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4123.
+Total: 6.115700 ms (FindLiveObjects: 0.445100 ms CreateObjectMapping: 0.265500 ms MarkObjects: 5.302400 ms  DeleteObjects: 0.101200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Texto/CutScenes/Cutscene13/13-1.txt
+  artifactKey: Guid(0beafc547bc6af54682f38f53e96a969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene13/13-1.txt using Guid(0beafc547bc6af54682f38f53e96a969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e04e391db2631a35f982c73585abd7') in 0.058166 seconds
+  Import took 0.068089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3641.474214 seconds.
+  path: Assets/Animations/Npc/FantoAjudante/IdleDireita.anim
+  artifactKey: Guid(6107b2dbd3a1e2b4a928e15d392749bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Npc/FantoAjudante/IdleDireita.anim using Guid(6107b2dbd3a1e2b4a928e15d392749bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258af12a946916513f22fcd2290ee4f0') in 1.691413 seconds
+  Import took 4.194322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/Animations/Npc/FantoAjudante/IdleFrente.anim
+  artifactKey: Guid(022547855393fc2458588e59761fceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Npc/FantoAjudante/IdleFrente.anim using Guid(022547855393fc2458588e59761fceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01abf7222f6ec79a9c016dce261cabf7') in 0.043131 seconds
+  Import took 0.068263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10243.678795 seconds.
+  path: Assets/Animations/Player/CMochila/AndandoCostas.anim
+  artifactKey: Guid(0b3c1239da6a5e2408940fc262fd5089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/CMochila/AndandoCostas.anim using Guid(0b3c1239da6a5e2408940fc262fd5089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6bbbc0b211d7436e99ffdf8399ea58') in 0.528589 seconds
+  Import took 1.592750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2950.703425 seconds.
+  path: Assets/Timeline/Ginasio/Cutscene66.playable
+  artifactKey: Guid(5228205c292e9e749ad539d84ac23c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Timeline/Ginasio/Cutscene66.playable using Guid(5228205c292e9e749ad539d84ac23c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524394ccc341cfbd6d0e2386b01a5849') in 8.048632 seconds
+  Import took 8.089512 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.369209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.2.1f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll disabled
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.744 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 3.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.4 MB.
+System memory in use after: 167.6 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4125.
+Total: 42.875500 ms (FindLiveObjects: 0.690200 ms CreateObjectMapping: 0.396600 ms MarkObjects: 27.801300 ms  DeleteObjects: 13.983600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6066.426389 seconds.
+  path: Assets/Animations/Npc/Juliano/IdleEsquerda.anim
+  artifactKey: Guid(c9198136b21ae634d83093bee08bd6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Npc/Juliano/IdleEsquerda.anim using Guid(c9198136b21ae634d83093bee08bd6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb41a6f793b547b09ba400ba17e704f') in 5.416709 seconds
+  Import took 7.005126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7759.041114 seconds.
+  path: Assets/Prefabs/Times/Ginasio/Prea
+  artifactKey: Guid(b8c95d729f26e15418a488b051620b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Times/Ginasio/Prea using Guid(b8c95d729f26e15418a488b051620b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e2b18bdbbeb2f3db526856a8165c7e') in 0.151257 seconds
+  Import took 1.655211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 949.212816 seconds.
+  path: Assets/Prefabs/FantoRobsEscriptaveis/1/AquarioRob 1.asset
+  artifactKey: Guid(8d4e1e61b8781a64b830a0acb0f8ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FantoRobsEscriptaveis/1/AquarioRob 1.asset using Guid(8d4e1e61b8781a64b830a0acb0f8ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519b6bb101247301a0533880cf0a6c98') in 5.830344 seconds
+  Import took 5.893204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Prefabs/Times/Ginasio/Prea/AquarioRob 1.asset
+  artifactKey: Guid(8d4e1e61b8781a64b830a0acb0f8ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Times/Ginasio/Prea/AquarioRob 1.asset using Guid(8d4e1e61b8781a64b830a0acb0f8ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519b6bb101247301a0533880cf0a6c98') in 0.126891 seconds
+  Import took 0.135101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.188808 seconds.
+  path: Assets/Prefabs/FantoRobsEscriptaveis/3/NavalhaRob.asset
+  artifactKey: Guid(d2a52ab09d01fdb498841754a3b489fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FantoRobsEscriptaveis/3/NavalhaRob.asset using Guid(d2a52ab09d01fdb498841754a3b489fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddbcb210921b7c5c64544eafcc89c9b') in 0.492995 seconds
+  Import took 0.502960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.435113 seconds.
+  path: Assets/Prefabs/FantoRobsEscriptaveis/0/Tochorob 1.asset
+  artifactKey: Guid(c9d56dcfb2674f34ab917790199c1c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FantoRobsEscriptaveis/0/Tochorob 1.asset using Guid(c9d56dcfb2674f34ab917790199c1c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5434e362ba250dd6b771448bfc69242f') in 0.278040 seconds
+  Import took 0.318648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.386459 seconds.
+  path: Assets/Prefabs/NucleoFisico/00/0-Cortante0 2.asset
+  artifactKey: Guid(c822df6444c28614c89102e6ce7c43e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NucleoFisico/00/0-Cortante0 2.asset using Guid(c822df6444c28614c89102e6ce7c43e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b433caac3322f0084768ead6122ffe7a') in 0.012395 seconds
+  Import took 0.357055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.380244 seconds.
+  path: Assets/Prefabs/NucleoFisico/00/4-Cajado0 1.asset
+  artifactKey: Guid(02acf194739524844a2e034815f1b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NucleoFisico/00/4-Cajado0 1.asset using Guid(02acf194739524844a2e034815f1b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7d80b19bbaa6690e3b9f1fae0e43d7') in 0.105891 seconds
+  Import took 0.152019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.169618 seconds.
+  path: Assets/Prefabs/Times/Ginasio/Prea/AquarioRob 1.asset
+  artifactKey: Guid(8d4e1e61b8781a64b830a0acb0f8ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Times/Ginasio/Prea/AquarioRob 1.asset using Guid(8d4e1e61b8781a64b830a0acb0f8ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d32ab34dcdadda2aa61e890af73edf6') in 0.071954 seconds
+  Import took 0.082757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095034 seconds.
+  path: Assets/Prefabs/Times/Ginasio/Prea/AquarioRob 1.asset
+  artifactKey: Guid(8d4e1e61b8781a64b830a0acb0f8ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Times/Ginasio/Prea/AquarioRob 1.asset using Guid(8d4e1e61b8781a64b830a0acb0f8ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d32ab34dcdadda2aa61e890af73edf6') in 0.023174 seconds
+  Import took 0.042074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.088150 seconds.
+  path: Assets/Prefabs/Times/Ginasio/Prea/Tochorob 1.asset
+  artifactKey: Guid(c9d56dcfb2674f34ab917790199c1c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Times/Ginasio/Prea/Tochorob 1.asset using Guid(c9d56dcfb2674f34ab917790199c1c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24569335343e62d215483a6b1dff6da4') in 0.053096 seconds
+  Import took 0.113417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.164632 seconds.
+  path: Assets/Prefabs/Times/Ginasio/Prea/0-Cortante0 2.asset
+  artifactKey: Guid(c822df6444c28614c89102e6ce7c43e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Times/Ginasio/Prea/0-Cortante0 2.asset using Guid(c822df6444c28614c89102e6ce7c43e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf151d7927e128200b031e7835122b0') in 0.005022 seconds
+  Import took 0.039669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.103097 seconds.
+  path: Assets/Prefabs/Times/Ginasio/Prea/AquarioRob 1.asset
+  artifactKey: Guid(8d4e1e61b8781a64b830a0acb0f8ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Times/Ginasio/Prea/AquarioRob 1.asset using Guid(8d4e1e61b8781a64b830a0acb0f8ba32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b456eb9f48dac41ae23fd8c2c85323') in 0.035833 seconds
+  Import took 0.047071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18729.866066 seconds.
+  path: Assets/Audio/Musica/Ginasio/Abertura_1.ogg
+  artifactKey: Guid(a1d2e938ce15d5c458427cdbf11f4fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Musica/Ginasio/Abertura_1.ogg using Guid(a1d2e938ce15d5c458427cdbf11f4fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd38e68050caca2c4dd68d3fee65a982') in 22.948334 seconds
+  Import took 24.426192 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 2.120144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.2.1f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll disabled
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 40.309 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 3.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.5 MB.
+System memory in use after: 170.7 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4137.
+Total: 10.160500 ms (FindLiveObjects: 0.693500 ms CreateObjectMapping: 0.362500 ms MarkObjects: 9.054800 ms  DeleteObjects: 0.047800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1747.998833 seconds.
+  path: Assets/Texto/CutScenes/Cutscene13/Dialogo13-1.asset
+  artifactKey: Guid(e745efd8199519d41b5e6ad75369e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene13/Dialogo13-1.asset using Guid(e745efd8199519d41b5e6ad75369e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb09d796d3c854456d8e8ceb2c2271e') in 0.042173 seconds
+  Import took 0.053075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.273751 seconds.
+  path: Assets/Texto/CutScenes/Cutscene13/13-1.txt
+  artifactKey: Guid(0beafc547bc6af54682f38f53e96a969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene13/13-1.txt using Guid(0beafc547bc6af54682f38f53e96a969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e626d02d653506f6c5965b15e07adf') in 0.008279 seconds
+  Import took 0.016909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002506 seconds.
+  path: Assets/Texto/CutScenes/Cutscene13/13-1.txt
+  artifactKey: Guid(0beafc547bc6af54682f38f53e96a969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene13/13-1.txt using Guid(0beafc547bc6af54682f38f53e96a969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e626d02d653506f6c5965b15e07adf') in 0.003109 seconds
+  Import took 0.010654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.903851 seconds.
+  path: Assets/Texto/CutScenes/Cutscene13/13-1 1.txt
+  artifactKey: Guid(461339c9bed7d494d841de44ce5a9966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene13/13-1 1.txt using Guid(461339c9bed7d494d841de44ce5a9966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d955f8b69bb68b90788479d8f1e0fc') in 0.010698 seconds
+  Import took 0.020462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.925074 seconds.
+  path: Assets/Texto/CutScenes/Cutscene13/13-1-eng.txt
+  artifactKey: Guid(461339c9bed7d494d841de44ce5a9966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene13/13-1-eng.txt using Guid(461339c9bed7d494d841de44ce5a9966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102dd8ba2e3aa4415c6b09e4851507d4') in 0.010214 seconds
+  Import took 0.020962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.298250 seconds.
+  path: Assets/Texto/CutScenes/Cutscene13/Dialogo13-1.asset
+  artifactKey: Guid(e745efd8199519d41b5e6ad75369e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene13/Dialogo13-1.asset using Guid(e745efd8199519d41b5e6ad75369e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bffb63a493b699d58fffcdc60f03755') in 0.003524 seconds
+  Import took 0.013284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000718 seconds.
+  path: Assets/Texto/CutScenes/Cutscene13/Dialogo13-1.asset
+  artifactKey: Guid(e745efd8199519d41b5e6ad75369e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene13/Dialogo13-1.asset using Guid(e745efd8199519d41b5e6ad75369e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bffb63a493b699d58fffcdc60f03755') in 0.003597 seconds
+  Import took 0.013653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.607721 seconds.
+  path: Assets/Texto/CutScenes/Cutscene13/13-1-eng.txt
+  artifactKey: Guid(461339c9bed7d494d841de44ce5a9966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene13/13-1-eng.txt using Guid(461339c9bed7d494d841de44ce5a9966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e804df533feee2ee69c32741e937c0') in 0.026805 seconds
+  Import took 0.058583 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.040872 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.2.1f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll disabled
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.026 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 2.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.5 MB.
+System memory in use after: 170.7 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4139.
+Total: 5.307700 ms (FindLiveObjects: 0.391700 ms CreateObjectMapping: 0.141900 ms MarkObjects: 4.699400 ms  DeleteObjects: 0.073200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.2.1f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll disabled
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.780 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 3.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.5 MB.
+System memory in use after: 170.8 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4141.
+Total: 10.254100 ms (FindLiveObjects: 0.468100 ms CreateObjectMapping: 0.268600 ms MarkObjects: 9.472600 ms  DeleteObjects: 0.042400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 227.233273 seconds.
+  path: Assets/Audio/Efeitos/Ginasio
+  artifactKey: Guid(126c73e49edfbb4479ae28ef0a73dee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Efeitos/Ginasio using Guid(126c73e49edfbb4479ae28ef0a73dee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1566f7dca37e78933614756522965dff') in 0.014446 seconds
+  Import took 0.025233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.521723 seconds.
+  path: Assets/Audio/Efeitos/Ginasio/susto.ogg
+  artifactKey: Guid(277f3deed4789f745afdd1446a070643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Efeitos/Ginasio/susto.ogg using Guid(277f3deed4789f745afdd1446a070643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076343e5a3bf0c0f300029905809bb3f') in 0.637806 seconds
+  Import took 0.647517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.705367 seconds.
+  path: Assets/Audio/Efeitos/Ginasio/carrooswaldo.mp3
+  artifactKey: Guid(7f6175cffa4956e429c1d638b80201e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Efeitos/Ginasio/carrooswaldo.mp3 using Guid(7f6175cffa4956e429c1d638b80201e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36730daaae99a929bbd10d156824d6f5') in 1.575947 seconds
+  Import took 1.589020 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016114 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.2.1f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll disabled
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.555 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 3.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.8 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4144.
+Total: 11.170000 ms (FindLiveObjects: 0.746700 ms CreateObjectMapping: 0.448900 ms MarkObjects: 9.924000 ms  DeleteObjects: 0.047900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010603 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.2.1f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll disabled
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.765 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 3.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.8 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4146.
+Total: 10.900900 ms (FindLiveObjects: 0.864900 ms CreateObjectMapping: 0.485800 ms MarkObjects: 9.493000 ms  DeleteObjects: 0.054700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012887 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.2.1f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll disabled
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.420 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 3.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.8 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4148.
+Total: 10.811500 ms (FindLiveObjects: 1.200700 ms CreateObjectMapping: 0.550400 ms MarkObjects: 9.006100 ms  DeleteObjects: 0.049100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016065 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.2.1f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll disabled
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.424 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 2.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.8 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4150.
+Total: 6.093900 ms (FindLiveObjects: 0.452300 ms CreateObjectMapping: 0.239800 ms MarkObjects: 5.373500 ms  DeleteObjects: 0.027100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018168 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.2.1f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll disabled
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.535 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 3.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.8 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4152.
+Total: 10.733300 ms (FindLiveObjects: 0.510500 ms CreateObjectMapping: 0.327900 ms MarkObjects: 9.849200 ms  DeleteObjects: 0.043600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.2.1f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll disabled
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.141 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 3.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3534 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.8 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4154.
+Total: 10.269200 ms (FindLiveObjects: 0.714300 ms CreateObjectMapping: 0.372300 ms MarkObjects: 9.131700 ms  DeleteObjects: 0.046700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3709.059454 seconds.
+  path: Assets/Texto/Marcus/MarcusFala12.txt
+  artifactKey: Guid(8afd03a4d5b015440aff43e5eea044c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Marcus/MarcusFala12.txt using Guid(8afd03a4d5b015440aff43e5eea044c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef0b0cf62893b65af5b1761fb051e78') in 0.259982 seconds
+  Import took 0.284258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.060545 seconds.
+  path: Assets/Texto/Marcus/MarcusFala12eng.txt
+  artifactKey: Guid(7d05582684fd0e14784c4ac417cd6b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Marcus/MarcusFala12eng.txt using Guid(7d05582684fd0e14784c4ac417cd6b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097951582661f7209ef812da9e8fdd7f') in 0.014664 seconds
+  Import took 0.025317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.361146 seconds.
+  path: Assets/Prefabs/Camera/MapaGoianopolis/MapaGoianopolis.prefab
+  artifactKey: Guid(ca88975c3c04d3f4e9437c4050307a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Camera/MapaGoianopolis/MapaGoianopolis.prefab using Guid(ca88975c3c04d3f4e9437c4050307a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239ac9ceeda4cf7de66186348ffdccdf') in 2.660549 seconds
+  Import took 2.669386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 407.398683 seconds.
+  path: Assets/Prefabs/Outros
+  artifactKey: Guid(aded49fc66c2bd9498a1d0689c3fd68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Outros using Guid(aded49fc66c2bd9498a1d0689c3fd68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0905cea97e9971ff206e8e9670903daa') in 0.018978 seconds
+  Import took 0.037738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.504586 seconds.
+  path: Assets/Prefabs/Outros/Reporter.prefab
+  artifactKey: Guid(f919ffb78ff92a2458e028eb49019393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Outros/Reporter.prefab using Guid(f919ffb78ff92a2458e028eb49019393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4110282eaba3bc073cb12551becc5cb4') in 0.947138 seconds
+  Import took 0.997751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.136172 seconds.
+  path: Assets/Texto/Parados/Reporter/Dialogo51.asset
+  artifactKey: Guid(b2bb743c2c0298f4187012deabda1425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Reporter/Dialogo51.asset using Guid(b2bb743c2c0298f4187012deabda1425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d23a1653f5feff3014137105e7ba8f5') in 0.011600 seconds
+  Import took 0.023473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017267 seconds.
+  path: Assets/Texto/Parados/Reporter/Dialogo51.asset
+  artifactKey: Guid(b2bb743c2c0298f4187012deabda1425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Reporter/Dialogo51.asset using Guid(b2bb743c2c0298f4187012deabda1425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d23a1653f5feff3014137105e7ba8f5') in 0.003828 seconds
+  Import took 0.014250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.096780 seconds.
+  path: Assets/Texto/Parados/Reporter/Dialogo51 1.asset
+  artifactKey: Guid(012c1ca7d3d8d6342ae82734df6a2b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Reporter/Dialogo51 1.asset using Guid(012c1ca7d3d8d6342ae82734df6a2b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275e546d0a59b0008f295e2fa336770c') in 0.017157 seconds
+  Import took 0.031004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.456400 seconds.
+  path: Assets/Texto/Parados/Reporter/Dialogo13.asset
+  artifactKey: Guid(012c1ca7d3d8d6342ae82734df6a2b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Reporter/Dialogo13.asset using Guid(012c1ca7d3d8d6342ae82734df6a2b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fabf31efe9fa3b88bcaccf7460fac18') in 0.012492 seconds
+  Import took 0.022551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.473673 seconds.
+  path: Assets/Texto/Parados/Reporter/Dialogo51 1.txt
+  artifactKey: Guid(62ac3b6543eb52c4a80912189012b5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Reporter/Dialogo51 1.txt using Guid(62ac3b6543eb52c4a80912189012b5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc622865ab2c4c78a389cb45a0464e2c') in 0.003875 seconds
+  Import took 0.012909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.608272 seconds.
+  path: Assets/Texto/Parados/Reporter/Dialogo13.txt
+  artifactKey: Guid(62ac3b6543eb52c4a80912189012b5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Reporter/Dialogo13.txt using Guid(62ac3b6543eb52c4a80912189012b5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06c4d7fcf00eef3c93fa4734a6328c3') in 0.004992 seconds
+  Import took 0.016432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.583526 seconds.
+  path: Assets/Texto/Parados/Reporter/Dialogo51eng 1.txt
+  artifactKey: Guid(1c12481bd2edf3c4e9e3ef1dae4e1402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Reporter/Dialogo51eng 1.txt using Guid(1c12481bd2edf3c4e9e3ef1dae4e1402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c4a357fbf25e6840ca6b03319da41d') in 0.015217 seconds
+  Import took 0.028644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.369592 seconds.
+  path: Assets/Texto/Parados/Reporter/Dialogo13eng.txt
+  artifactKey: Guid(1c12481bd2edf3c4e9e3ef1dae4e1402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Reporter/Dialogo13eng.txt using Guid(1c12481bd2edf3c4e9e3ef1dae4e1402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea7393509abdf983aade446c31d5fc3') in 0.013584 seconds
+  Import took 0.026536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.796420 seconds.
+  path: Assets/Texto/Parados/Reporter/Dialogo13.txt
+  artifactKey: Guid(62ac3b6543eb52c4a80912189012b5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Reporter/Dialogo13.txt using Guid(62ac3b6543eb52c4a80912189012b5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4347c6813d369ef747018ceb4cec0e7c') in 0.006458 seconds
+  Import took 0.023783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 294.581709 seconds.
+  path: Assets/Texto/Parados/Reporter/Dialogo13eng.txt
+  artifactKey: Guid(1c12481bd2edf3c4e9e3ef1dae4e1402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Reporter/Dialogo13eng.txt using Guid(1c12481bd2edf3c4e9e3ef1dae4e1402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd8f0db4b1644da68aecdae28a34c1e') in 0.003066 seconds
+  Import took 0.014255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.682339 seconds.
+  path: Assets/Texto/Parados/CameraMan/Dialogo51eng 1.txt
+  artifactKey: Guid(25bc897e384e1744fb207e219dc8be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/Dialogo51eng 1.txt using Guid(25bc897e384e1744fb207e219dc8be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22af7fd2e7bc9193ebbb40a39184c251') in 0.005494 seconds
+  Import took 0.034820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1102.204671 seconds.
+  path: Assets/Texto/Oswaldo/Dialogo13.asset
+  artifactKey: Guid(d6e1170052df2d04aaf9404af7aa794b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Oswaldo/Dialogo13.asset using Guid(d6e1170052df2d04aaf9404af7aa794b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5524316c1b305cb271aa753049fc70bb') in 0.043661 seconds
+  Import took 0.076678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001174 seconds.
+  path: Assets/Texto/Oswaldo/Dialogo13.asset
+  artifactKey: Guid(d6e1170052df2d04aaf9404af7aa794b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Oswaldo/Dialogo13.asset using Guid(d6e1170052df2d04aaf9404af7aa794b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5524316c1b305cb271aa753049fc70bb') in 0.006932 seconds
+  Import took 0.029087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.763749 seconds.
+  path: Assets/Texto/Oswaldo/Dialogo13.txt
+  artifactKey: Guid(8ae514401dc0382489082da1a7e1c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Oswaldo/Dialogo13.txt using Guid(8ae514401dc0382489082da1a7e1c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f6002e824b0144db565c349fa11189') in 0.003382 seconds
+  Import took 0.015038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.245077 seconds.
+  path: Assets/Texto/Oswaldo/Dialogo13eng.txt
+  artifactKey: Guid(e7dbae4d1aa0d244f89b16bf634e81c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Oswaldo/Dialogo13eng.txt using Guid(e7dbae4d1aa0d244f89b16bf634e81c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921986b6aa8df6087baf016ec3eeb6a0') in 0.004436 seconds
+  Import took 0.013968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.758295 seconds.
+  path: Assets/Texto/Oswaldo/Dialogo13eng.txt
+  artifactKey: Guid(e7dbae4d1aa0d244f89b16bf634e81c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Oswaldo/Dialogo13eng.txt using Guid(e7dbae4d1aa0d244f89b16bf634e81c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a5049801f8b02379eb9a5c4493161a') in 0.005614 seconds
+  Import took 0.015414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002885 seconds.
+  path: Assets/Texto/Oswaldo/Dialogo13eng.txt
+  artifactKey: Guid(e7dbae4d1aa0d244f89b16bf634e81c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Oswaldo/Dialogo13eng.txt using Guid(e7dbae4d1aa0d244f89b16bf634e81c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a5049801f8b02379eb9a5c4493161a') in 0.003977 seconds
+  Import took 0.014670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.573586 seconds.
+  path: Assets/Texto/FuncionarioFantorob
+  artifactKey: Guid(9929aac6b30cf0b4cb3ad0488391edb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/FuncionarioFantorob using Guid(9929aac6b30cf0b4cb3ad0488391edb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d4971526778feaf619edf6c272b9a3') in 0.038961 seconds
+  Import took 0.068970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.248889 seconds.
+  path: Assets/Texto/Oswaldo/Dialogo13.txt
+  artifactKey: Guid(8ae514401dc0382489082da1a7e1c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Oswaldo/Dialogo13.txt using Guid(8ae514401dc0382489082da1a7e1c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e806817c4f226f6cf83663670e53ff') in 0.003753 seconds
+  Import took 0.013003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000707 seconds.
+  path: Assets/Texto/Oswaldo/Dialogo13.txt
+  artifactKey: Guid(8ae514401dc0382489082da1a7e1c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Oswaldo/Dialogo13.txt using Guid(8ae514401dc0382489082da1a7e1c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e806817c4f226f6cf83663670e53ff') in 0.003422 seconds
+  Import took 0.013178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.230667 seconds.
+  path: Assets/Texto/FuncionarioFantorob/Dialogo13 1.asset
+  artifactKey: Guid(c7ceb3f928035d342a881a880d1a4ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/FuncionarioFantorob/Dialogo13 1.asset using Guid(c7ceb3f928035d342a881a880d1a4ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929d6e2d4caedb9ace720f6bb5c5088c') in 0.015157 seconds
+  Import took 0.036528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.544848 seconds.
+  path: Assets/Texto/FuncionarioFantorob/Dialogo13 1.txt
+  artifactKey: Guid(16b904f931c3ec64b86bdcff13bd73db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/FuncionarioFantorob/Dialogo13 1.txt using Guid(16b904f931c3ec64b86bdcff13bd73db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bde62214a7ddfe02fccd6ea66d54ede') in 0.012096 seconds
+  Import took 0.025742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.559224 seconds.
+  path: Assets/Texto/FuncionarioFantorob/Dialogo13 1.txt
+  artifactKey: Guid(16b904f931c3ec64b86bdcff13bd73db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/FuncionarioFantorob/Dialogo13 1.txt using Guid(16b904f931c3ec64b86bdcff13bd73db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3772fb8cbd1d7662674b94d239cccbc') in 0.019570 seconds
+  Import took 0.036864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001044 seconds.
+  path: Assets/Texto/FuncionarioFantorob/Dialogo13 1.txt
+  artifactKey: Guid(16b904f931c3ec64b86bdcff13bd73db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/FuncionarioFantorob/Dialogo13 1.txt using Guid(16b904f931c3ec64b86bdcff13bd73db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3772fb8cbd1d7662674b94d239cccbc') in 0.006474 seconds
+  Import took 0.020628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.498768 seconds.
+  path: Assets/Texto/FuncionarioFantorob/Dialogo13eng 1.txt
+  artifactKey: Guid(419efe22fdd2743459891931a253a4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/FuncionarioFantorob/Dialogo13eng 1.txt using Guid(419efe22fdd2743459891931a253a4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99805c85566133b8cfda7b18e6797275') in 0.047484 seconds
+  Import took 0.060834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.596938 seconds.
+  path: Assets/Texto/FuncionarioFantorob/Dialogo13eng 1.txt
+  artifactKey: Guid(419efe22fdd2743459891931a253a4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/FuncionarioFantorob/Dialogo13eng 1.txt using Guid(419efe22fdd2743459891931a253a4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ea9c846f611e98593c7f6979a60f6d') in 0.005870 seconds
+  Import took 0.017381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008533 seconds.
+  path: Assets/Texto/FuncionarioFantorob/Dialogo13eng 1.txt
+  artifactKey: Guid(419efe22fdd2743459891931a253a4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/FuncionarioFantorob/Dialogo13eng 1.txt using Guid(419efe22fdd2743459891931a253a4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ea9c846f611e98593c7f6979a60f6d') in 0.003442 seconds
+  Import took 0.015925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.390599 seconds.
+  path: Assets/Texto/Dasdores/Dialogo13 1.asset
+  artifactKey: Guid(72c9024b11fe7cb40a4415e86af1ff9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Dasdores/Dialogo13 1.asset using Guid(72c9024b11fe7cb40a4415e86af1ff9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278b940bf3a3e39ae022d217a4d39a88') in 0.041579 seconds
+  Import took 0.057598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.906081 seconds.
+  path: Assets/Texto/Dasdores/Dialogo13 1.txt
+  artifactKey: Guid(6df914dbe5414ad4da60cd8ba424ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Dasdores/Dialogo13 1.txt using Guid(6df914dbe5414ad4da60cd8ba424ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101786dfc16ff19d20f70fe0362d0b2c') in 0.003249 seconds
+  Import took 0.033613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.773185 seconds.
+  path: Assets/Texto/Dasdores/Dialogo13eng 1.txt
+  artifactKey: Guid(48a31df67957a27498ac1fd9f7247519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Dasdores/Dialogo13eng 1.txt using Guid(48a31df67957a27498ac1fd9f7247519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f3b2a9f4bec553a2536f00ad992a91') in 0.004332 seconds
+  Import took 0.013043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.200770 seconds.
+  path: Assets/Texto/Dasdores/Dialogo13eng 1.txt
+  artifactKey: Guid(48a31df67957a27498ac1fd9f7247519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Dasdores/Dialogo13eng 1.txt using Guid(48a31df67957a27498ac1fd9f7247519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1ff4471323e1af6f611e14fb85dcf8') in 0.055796 seconds
+  Import took 0.064646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.376621 seconds.
+  path: Assets/Texto/Parados/Bombeiro1/Dialogo13eng.txt
+  artifactKey: Guid(d43dcbbae34c531499067b718381a476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Bombeiro1/Dialogo13eng.txt using Guid(d43dcbbae34c531499067b718381a476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcf92fe0b5c1a04af8d05f9b23ac9e0') in 0.042869 seconds
+  Import took 0.065564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.491514 seconds.
+  path: Assets/Texto/Parados/Policial/Dialogo1 1.asset
+  artifactKey: Guid(fcaaa09c9c59f894a8a420d7eb7c5108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Policial/Dialogo1 1.asset using Guid(fcaaa09c9c59f894a8a420d7eb7c5108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc55aaccaf19ccff4ead9a6abf5d459') in 0.204296 seconds
+  Import took 0.226515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.793126 seconds.
+  path: Assets/Texto/Parados/Policial/Dialogo13.asset
+  artifactKey: Guid(fcaaa09c9c59f894a8a420d7eb7c5108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Policial/Dialogo13.asset using Guid(fcaaa09c9c59f894a8a420d7eb7c5108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecc17051ac46aa9340a8b1799dbeadf') in 0.118846 seconds
+  Import took 0.131826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.507393 seconds.
+  path: Assets/Texto/Parados/Policial/Dialogo1 1.txt
+  artifactKey: Guid(85f56a39cd6c2464bb1a1835ba006fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Policial/Dialogo1 1.txt using Guid(85f56a39cd6c2464bb1a1835ba006fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43317420e840bc84e1a24a4f7a394c11') in 0.017132 seconds
+  Import took 0.027659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020987 seconds.
+  path: Assets/Texto/Parados/Policial/Dialogo1 1.txt
+  artifactKey: Guid(85f56a39cd6c2464bb1a1835ba006fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Policial/Dialogo1 1.txt using Guid(85f56a39cd6c2464bb1a1835ba006fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43317420e840bc84e1a24a4f7a394c11') in 0.004964 seconds
+  Import took 0.014904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.341133 seconds.
+  path: Assets/Texto/Parados/Policial/Dialogo13.txt
+  artifactKey: Guid(85f56a39cd6c2464bb1a1835ba006fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Policial/Dialogo13.txt using Guid(85f56a39cd6c2464bb1a1835ba006fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0912a42f9c9c26df30bc42f4f2a09ced') in 0.039065 seconds
+  Import took 0.051497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.840496 seconds.
+  path: Assets/Texto/Parados/Policial/Dialogo1eng 1.txt
+  artifactKey: Guid(00468a2fbb758954fab854dfa5d45751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Policial/Dialogo1eng 1.txt using Guid(00468a2fbb758954fab854dfa5d45751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97aa3505ab90b4b976ca1fccf3fb427e') in 0.048215 seconds
+  Import took 0.059996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.900734 seconds.
+  path: Assets/Texto/Parados/Policial/Dialogo13eng.txt
+  artifactKey: Guid(00468a2fbb758954fab854dfa5d45751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Policial/Dialogo13eng.txt using Guid(00468a2fbb758954fab854dfa5d45751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd52ea21409000226d8b1d330ea84c8') in 0.030533 seconds
+  Import took 0.041458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.136981 seconds.
+  path: Assets/Texto/Parados/Policial/Dialogo13 1.asset
+  artifactKey: Guid(7c1a9ffb6624f464cb15385a8999fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Policial/Dialogo13 1.asset using Guid(7c1a9ffb6624f464cb15385a8999fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd618e1b454b8b2ea74f38b0a2621be3') in 0.161379 seconds
+  Import took 0.212350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.783958 seconds.
+  path: Assets/Texto/Parados/Policial/Dialogo13eng.txt
+  artifactKey: Guid(00468a2fbb758954fab854dfa5d45751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Policial/Dialogo13eng.txt using Guid(00468a2fbb758954fab854dfa5d45751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67de1b9c8b7f188526c57641bf033ffc') in 0.780396 seconds
+  Import took 0.792734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.357962 seconds.
+  path: Assets/Texto/Parados/Policial/Dialogo13 1.txt
+  artifactKey: Guid(9066a70bb624c974f9bbfe3701c58e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Policial/Dialogo13 1.txt using Guid(9066a70bb624c974f9bbfe3701c58e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16b52b5807909d77ba8d2cbb2aabb0c') in 0.040861 seconds
+  Import took 0.050081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.800398 seconds.
+  path: Assets/Texto/Parados/Policial/Dialogo13eng 1.txt
+  artifactKey: Guid(b67253ec72fd7154695b8f62a0e47723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Policial/Dialogo13eng 1.txt using Guid(b67253ec72fd7154695b8f62a0e47723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c751e94f84e56948de83151b05113493') in 0.034554 seconds
+  Import took 0.043621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.713324 seconds.
+  path: Assets/Texto/Parados/Policial/Dialogo13eng 1.txt
+  artifactKey: Guid(b67253ec72fd7154695b8f62a0e47723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Policial/Dialogo13eng 1.txt using Guid(b67253ec72fd7154695b8f62a0e47723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f080cf33e5c63000ac25f55ee760cb7') in 0.004912 seconds
+  Import took 0.017501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.293316 seconds.
+  path: Assets/Texto/Parados/Boneco3/Dialogo31 1.asset
+  artifactKey: Guid(487e18bf41844ea47932d79ccdb3062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Boneco3/Dialogo31 1.asset using Guid(487e18bf41844ea47932d79ccdb3062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338ad1bd925026dd2b85216bdf17f714') in 0.098714 seconds
+  Import took 0.124746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.167167 seconds.
+  path: Assets/Texto/Parados/Boneco3/Dialogo13.asset
+  artifactKey: Guid(487e18bf41844ea47932d79ccdb3062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Boneco3/Dialogo13.asset using Guid(487e18bf41844ea47932d79ccdb3062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a28524ed32ad5f9ec06f9bfc46daee') in 0.005188 seconds
+  Import took 0.020394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.087852 seconds.
+  path: Assets/Texto/Parados/Boneco3/Dialogo27 1.txt
+  artifactKey: Guid(9e43143dd4af6eb4fb0552d59e52867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Boneco3/Dialogo27 1.txt using Guid(9e43143dd4af6eb4fb0552d59e52867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedb89b597e900bcc5fcb6ec08952e6f') in 0.016925 seconds
+  Import took 0.032296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.411523 seconds.
+  path: Assets/Texto/Parados/Boneco3/Dialogo13.txt
+  artifactKey: Guid(9e43143dd4af6eb4fb0552d59e52867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Boneco3/Dialogo13.txt using Guid(9e43143dd4af6eb4fb0552d59e52867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d8326bab0096e2d5d92b0133ca79d6') in 0.004244 seconds
+  Import took 0.013589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.626782 seconds.
+  path: Assets/Texto/Parados/Boneco3/Dialogo27eng 1.txt
+  artifactKey: Guid(e0ddd060773218f40b3d8c0398f99159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Boneco3/Dialogo27eng 1.txt using Guid(e0ddd060773218f40b3d8c0398f99159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6292c9d8b9ccca11a988265e8ae86569') in 0.049897 seconds
+  Import took 0.083709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.767837 seconds.
+  path: Assets/Texto/Parados/Boneco3/Dialogo27eng 2.txt
+  artifactKey: Guid(c2a45b331c61a244fa0f6e06142267ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Boneco3/Dialogo27eng 2.txt using Guid(c2a45b331c61a244fa0f6e06142267ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f0829bf513a21931a5a0c583f22312') in 0.040016 seconds
+  Import took 0.103453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.077850 seconds.
+  path: Assets/Texto/Parados/Boneco3/Dialogo13eng.txt
+  artifactKey: Guid(c2a45b331c61a244fa0f6e06142267ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Boneco3/Dialogo13eng.txt using Guid(c2a45b331c61a244fa0f6e06142267ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4574075248078ae7e43c961e1e85470a') in 0.004598 seconds
+  Import took 0.013951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.031006 seconds.
+  path: Assets/Texto/Parados/Boneco3/Dialogo13.txt
+  artifactKey: Guid(9e43143dd4af6eb4fb0552d59e52867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Boneco3/Dialogo13.txt using Guid(9e43143dd4af6eb4fb0552d59e52867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fd180e4d78dbbbcba3864b697af43f') in 0.050342 seconds
+  Import took 0.066076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.363480 seconds.
+  path: Assets/Texto/Parados/Boneco3/Dialogo13eng.txt
+  artifactKey: Guid(c2a45b331c61a244fa0f6e06142267ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Boneco3/Dialogo13eng.txt using Guid(c2a45b331c61a244fa0f6e06142267ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3700dd508190a7a62156bab36c15d106') in 0.004216 seconds
+  Import took 0.015849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009460 seconds.
+  path: Assets/Texto/Parados/Boneco3/Dialogo13eng.txt
+  artifactKey: Guid(c2a45b331c61a244fa0f6e06142267ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Boneco3/Dialogo13eng.txt using Guid(c2a45b331c61a244fa0f6e06142267ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3700dd508190a7a62156bab36c15d106') in 0.004174 seconds
+  Import took 0.015120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.856887 seconds.
+  path: Assets/Texto/Parados/Roberta/Dialogo1 1.asset
+  artifactKey: Guid(9b7b956518e744746980b578e70718cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Roberta/Dialogo1 1.asset using Guid(9b7b956518e744746980b578e70718cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0ff7a329b6fb134736d54e1f785d98') in 0.118416 seconds
+  Import took 0.128648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.029044 seconds.
+  path: Assets/Texto/Parados/Roberta/Dialogo13.asset
+  artifactKey: Guid(9b7b956518e744746980b578e70718cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Roberta/Dialogo13.asset using Guid(9b7b956518e744746980b578e70718cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e9fbcd5c191acd192815b936737ee7') in 0.036518 seconds
+  Import took 0.049242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.615067 seconds.
+  path: Assets/Texto/Parados/Roberta/Dialogo1 1.txt
+  artifactKey: Guid(9ea0bf47ce4714e4db8408b489166ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Roberta/Dialogo1 1.txt using Guid(9ea0bf47ce4714e4db8408b489166ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78759959cb625555399d623d7b0f521') in 0.004063 seconds
+  Import took 0.013171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001415 seconds.
+  path: Assets/Texto/Parados/Roberta/Dialogo1 1.txt
+  artifactKey: Guid(9ea0bf47ce4714e4db8408b489166ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Roberta/Dialogo1 1.txt using Guid(9ea0bf47ce4714e4db8408b489166ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78759959cb625555399d623d7b0f521') in 0.032449 seconds
+  Import took 0.043916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.140721 seconds.
+  path: Assets/Texto/Parados/Roberta/Dialogo13.txt
+  artifactKey: Guid(9ea0bf47ce4714e4db8408b489166ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Roberta/Dialogo13.txt using Guid(9ea0bf47ce4714e4db8408b489166ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3f9023debc8a2edc72cfce16082d51') in 0.036839 seconds
+  Import took 0.047129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.764257 seconds.
+  path: Assets/Texto/Parados/Roberta/Dialogo1eng 1.txt
+  artifactKey: Guid(b2b3db232a1c3b94da7f1d5dd44479f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Roberta/Dialogo1eng 1.txt using Guid(b2b3db232a1c3b94da7f1d5dd44479f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c237d96a0d22e38b2d16f313ba7e25d') in 0.012940 seconds
+  Import took 0.024269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.302791 seconds.
+  path: Assets/Texto/Parados/Roberta/Dialogo13eng.txt
+  artifactKey: Guid(b2b3db232a1c3b94da7f1d5dd44479f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Roberta/Dialogo13eng.txt using Guid(b2b3db232a1c3b94da7f1d5dd44479f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfc22ec53bd198cc7df2a541e5af572') in 0.027022 seconds
+  Import took 0.036415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.648316 seconds.
+  path: Assets/Texto/Parados/Roberta/Dialogo13eng.txt
+  artifactKey: Guid(b2b3db232a1c3b94da7f1d5dd44479f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Roberta/Dialogo13eng.txt using Guid(b2b3db232a1c3b94da7f1d5dd44479f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d0606a106831eeb550ea4203624134') in 0.012679 seconds
+  Import took 0.024502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001689 seconds.
+  path: Assets/Texto/Parados/Roberta/Dialogo13eng.txt
+  artifactKey: Guid(b2b3db232a1c3b94da7f1d5dd44479f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/Roberta/Dialogo13eng.txt using Guid(b2b3db232a1c3b94da7f1d5dd44479f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d0606a106831eeb550ea4203624134') in 0.002949 seconds
+  Import took 0.012540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.979374 seconds.
+  path: Assets/Texto/Parados/CameraMan/Dialogo51 2.asset
+  artifactKey: Guid(d4e8329d42feaf349b43043e4041cb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/Dialogo51 2.asset using Guid(d4e8329d42feaf349b43043e4041cb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7316165c4b7700b20441895d9923ce18') in 0.140829 seconds
+  Import took 0.150834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.069794 seconds.
+  path: Assets/Texto/Parados/CameraMan/Dialogo13.asset
+  artifactKey: Guid(d4e8329d42feaf349b43043e4041cb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/Dialogo13.asset using Guid(d4e8329d42feaf349b43043e4041cb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c8ec4e2ca1133dfcdd4ea0ba89de31') in 0.004392 seconds
+  Import took 0.014627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.080817 seconds.
+  path: Assets/Texto/Parados/CameraMan/Dialogo51 2.txt
+  artifactKey: Guid(463b4ccf14a4566499d0832c4ffafd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/Dialogo51 2.txt using Guid(463b4ccf14a4566499d0832c4ffafd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae51108e52442567972d64152ed3e8b1') in 0.027263 seconds
+  Import took 0.036448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.266763 seconds.
+  path: Assets/Texto/Parados/CameraMan/13.txt
+  artifactKey: Guid(463b4ccf14a4566499d0832c4ffafd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/13.txt using Guid(463b4ccf14a4566499d0832c4ffafd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ddd52deb807d2b785a56a9a8bfda8e') in 0.029010 seconds
+  Import took 0.039585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.826591 seconds.
+  path: Assets/Texto/Parados/CameraMan/Dialogo51eng 2.txt
+  artifactKey: Guid(245904d18f02f7c44a3d7476887c9db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/Dialogo51eng 2.txt using Guid(245904d18f02f7c44a3d7476887c9db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3d84a6a2c5226a86bde44154a9233f') in 0.053457 seconds
+  Import took 0.065914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.168689 seconds.
+  path: Assets/Texto/Parados/CameraMan/13eng.txt
+  artifactKey: Guid(245904d18f02f7c44a3d7476887c9db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/13eng.txt using Guid(245904d18f02f7c44a3d7476887c9db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18f731eff06fb04382fd35f12ea1316') in 0.011989 seconds
+  Import took 0.020308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.400254 seconds.
+  path: Assets/Texto/Parados/CameraMan/Dialogo13 1.asset
+  artifactKey: Guid(5f324af2855eb484585e6611639c4852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/Dialogo13 1.asset using Guid(5f324af2855eb484585e6611639c4852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7b2a813d5bab6083cbdbc2f568dd23') in 0.168115 seconds
+  Import took 0.181062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.588177 seconds.
+  path: Assets/Texto/Parados/CameraMan/13 1.txt
+  artifactKey: Guid(1a9c9206fc885bf46ac1b4d26746da3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/13 1.txt using Guid(1a9c9206fc885bf46ac1b4d26746da3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043071580a50ec17d23306ff59981c0d') in 0.011143 seconds
+  Import took 0.023119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.634622 seconds.
+  path: Assets/Texto/Parados/CameraMan/13eng 1.txt
+  artifactKey: Guid(399f558d75106a14ba6a8cb9024e31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/13eng 1.txt using Guid(399f558d75106a14ba6a8cb9024e31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd8c0ccad86f6e05db2d8c22b8bb30a') in 0.008904 seconds
+  Import took 0.017122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077297 seconds.
+  path: Assets/Texto/Parados/CameraMan/13eng 1.txt
+  artifactKey: Guid(399f558d75106a14ba6a8cb9024e31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/13eng 1.txt using Guid(399f558d75106a14ba6a8cb9024e31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd8c0ccad86f6e05db2d8c22b8bb30a') in 0.002957 seconds
+  Import took 0.010088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.019704 seconds.
+  path: Assets/Texto/Parados/CameraMan/13eng.txt
+  artifactKey: Guid(245904d18f02f7c44a3d7476887c9db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/13eng.txt using Guid(245904d18f02f7c44a3d7476887c9db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851091142f71e5dfc6c234bde78de356') in 0.003697 seconds
+  Import took 0.016591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001333 seconds.
+  path: Assets/Texto/Parados/CameraMan/13eng.txt
+  artifactKey: Guid(245904d18f02f7c44a3d7476887c9db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/Parados/CameraMan/13eng.txt using Guid(245904d18f02f7c44a3d7476887c9db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851091142f71e5dfc6c234bde78de356') in 0.017639 seconds
+  Import took 0.026255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 319.297176 seconds.
+  path: Assets/Sprites/Cenarios/Ginasio/ginasio-porta.psd
+  artifactKey: Guid(05278a9a78d4726469ad7f0c812866f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenarios/Ginasio/ginasio-porta.psd using Guid(05278a9a78d4726469ad7f0c812866f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e24403e13e30566c3b2281c4508189') in 5.610678 seconds
+  Import took 5.627787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.819006 seconds.
+  path: Assets/Sprites/Cenarios/Ginasio/ginasio-porta.psd
+  artifactKey: Guid(05278a9a78d4726469ad7f0c812866f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenarios/Ginasio/ginasio-porta.psd using Guid(05278a9a78d4726469ad7f0c812866f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abccd0643af52c8b0309d9291baa379') in 0.261702 seconds
+  Import took 0.277151 seconds .
+

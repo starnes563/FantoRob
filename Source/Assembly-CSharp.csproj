@@ -1,0 +1,2012 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{A9DF23B1-CFA1-83A6-87A4-AF99006FB798}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_2_1;UNITY_2020_2;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_PURCHASING;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.5</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2020.2.1f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\AcionaMenuElevador.cs" />
+    <Compile Include="Assets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\Tutorial.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\LocalizadorRegiao.cs" />
+    <Compile Include="Assets\Scripts\Battle\Sons\MusicaAleatoria.cs" />
+    <Compile Include="Assets\Scripts\Shop\NotEnoghtMoney.cs" />
+    <Compile Include="Assets\Scripts\Battle\Sons\SomInBaixo.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuTime\BotaoItem.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\RegionData.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Barco\ZerarPortaBarco.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\FlipCavaleiro.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
+    <Compile Include="Assets\SetaDeTroca.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\MaquinaCartao.cs" />
+    <Compile Include="Assets\Scripts\Tutorial\MenuDesligaTutorial.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Amigo.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\PartMenu.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\FecharJogo.cs" />
+    <Compile Include="Assets\Scripts\Battle\Weapon.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\Spawn.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuMissões\BtMissoes.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\AirSoft\AlvoAirSoft.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Castelo\PortaTrono.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\CombButton.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\PartMenuSelecao.cs" />
+    <Compile Include="Assets\Scripts\Shop\ChangeSubMenu.cs" />
+    <Compile Include="Assets\Scripts\CutScenes\GatilhoCutscene.cs" />
+    <Compile Include="Assets\Scripts\Shop\ConstruirRoboEFisico\Construivel.cs" />
+    <Compile Include="Assets\Scripts\Battle\RobotManager.cs" />
+    <Compile Include="Assets\Epic Toon FX\Scripts\ETFXLightFade.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
+    <Compile Include="Assets\Scripts\Celular\BotaoCenas.cs" />
+    <Compile Include="Assets\Dungeonizer\Escritorio\Scripts\AleatorizaMesa.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\ControlaUltimoBau.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\GatilhoFantoCaverna.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Fazenda\EntradaAlternativa.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\Quest\Quest.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\FantoBerco.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\EscadaMansao.cs" />
+    <Compile Include="Assets\Scripts\Shop\ConstruirRoboEFisico\QuadroConstruir.cs" />
+    <Compile Include="Assets\Scripts\Battle\WeaponHolder.cs" />
+    <Compile Include="Assets\Scripts\Battle\Sons\SonsDoMenu.cs" />
+    <Compile Include="Assets\Scripts\Battle\TransitionManager.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\CreateCombButton.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\AnimacaoFimBatalha.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeTroca\SwitchManager.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\CaixaDeForca.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\CaixaDeSom.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\TrocaCenario.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\WeaponButton.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralUISpace.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\EnemyBatController.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\DadoCombo.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\ElevadorTorre.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Castelo\Bloqueio.cs" />
+    <Compile Include="Assets\Scripts\Battle\PositionPlacer.cs" />
+    <Compile Include="Assets\Scripts\Debug\NpcDebug.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\GatilhoNpc.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuItem\ItemButtonPlayer.cs" />
+    <Compile Include="Assets\Scripts\Battle\Sons\SomFantoRob.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\VFX Library\ParticleEffectsLibrary.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Escritorio\Entrada.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\Battle\ObjectsDatabase.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\PlayerMenu.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\Boliche\SumirABola.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Escritorio\Elevador.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\FadaCaminhao.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Ginasio\ControlaCenaBatalha.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\IniciarDesafio.cs" />
+    <Compile Include="Assets\Scripts\Shop\QuadroParte.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeItem\Confirmacao.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Castelo\Poco.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeItem\ItemButon.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\Quest\MostrarRecompensa.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\DadoMove.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\DadoNucleoFisico.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\Quest\QuestBoard.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\VerifyButton.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\SaveSystem.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
+    <Compile Include="Assets\Scripts\Battle\Dust.cs" />
+    <Compile Include="Assets\Scripts\Battle\Fumaca.cs" />
+    <Compile Include="Assets\Scripts\Lingua\ForcarTrad.cs" />
+    <Compile Include="Assets\Scripts\Battle\TelaFimBatalha.cs" />
+    <Compile Include="Assets\Scripts\Celular\TelaBatalharRival.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\AirSoft\GatilhoIniciarAirSoft.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\SairDesafio.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\ColliderAlteraMovimento.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\GatilhoEscada.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
+    <Compile Include="Assets\Dungeonizer\Dungeonizer.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\AirSoft\DestroiAlvoAirSoft.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\UnforgeButton.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\StuffBillboard.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\AnimFantomascara.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\PortaMansao.cs" />
+    <Compile Include="Assets\Scripts\Fantorob\FantoRob.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Barco\PacoteEsfiha.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\EnemySlimeController.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Ginasio\Ovo.cs" />
+    <Compile Include="Assets\Scripts\Battle\AnimacaoTrocaEnemy.cs" />
+    <Compile Include="Assets\Epic Toon FX\Scripts\ETFXRotation.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\GatilhoAmigo.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuMissões\QuadroMissoes.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Fazenda\Casecomchave.cs" />
+    <Compile Include="Assets\Scripts\Shop\SellBut.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuTime\BotaoVer.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\AddTesourado.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\TorreFantoRob\Checkpoint.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\Porta.cs" />
+    <Compile Include="Assets\Scripts\Battle\Nucleos\UIFisico.cs" />
+    <Compile Include="Assets\Scripts\Shop\ConstruirRoboEFisico\BotaoConstruir.cs" />
+    <Compile Include="Assets\Scripts\Lingua\TraduzirAtaqueAbertura.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Escritorio\PossuiChave.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\ResultButton.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Barco\Bote.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\GatilhoTesourado.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\QuadroDesafio\ParticipanteDEsafio.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Fazenda\ControleBonde.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\ConfigurarBateria\MenuTrocarBateria.cs" />
+    <Compile Include="Assets\Scripts\Battle\AttackAnimation.cs" />
+    <Compile Include="Assets\Scripts\Shop\Fala.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\AjustarMenu.cs" />
+    <Compile Include="Assets\Scripts\Celular\NotifVing.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\GatilhoAcionarVagoneta.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\Cena48.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\RobotCore.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\AcionarSaveSystem.cs" />
+    <Compile Include="Assets\Scripts\Shop\PreShopMenu.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\EscondeBotao.cs" />
+    <Compile Include="Assets\Scripts\Battle\ManDiferenciado.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\Presente.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\FantoMascaraFugitivo.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\Bau.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\RobotButton.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuTime\PartyMenu.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\GPS\SetaGPS.cs" />
+    <Compile Include="Assets\Scripts\Battle\Overlock.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\ChooseButton.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\AirSoft\GatilhoAcertoAirSoft.cs" />
+    <Compile Include="Assets\Scripts\Battle\Nucleos\Impacto.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\AirSoft\GerenciadorAirSoft.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\VenceuCampeao.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\ColliderMovFantoFugi.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\SombraTexto.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\IntentoryMenu.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\BotaoMovePlayer.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Barco\Quadrado.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\BarreiraEntreterimento.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\BatteryButton.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\MostrarBau.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\Board.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\ChooseRobotMenu.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\DadoCircuito.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Barco\MenuEsfiha.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\AlertaStealth.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\UnMerger.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\AcionaElevador.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\FecharMenuFantorob.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\PartButton.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\configurarAtaques\ConfigurarAtaques.cs" />
+    <Compile Include="Assets\Scripts\Battle\Sons\SomBarraDeAcao.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\EnemySpawner.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\TerminarCena.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\InventorySelectButton.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeTroca\SwitchRobot.cs" />
+    <Compile Include="Assets\Scripts\Battle\TextoDeBatalha.cs" />
+    <Compile Include="Assets\Scripts\CutScenes\DialogoCutscene.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\CoreMenu.cs" />
+    <Compile Include="Assets\Scripts\Battle\Shake.cs" />
+    <Compile Include="Assets\Scripts\Battle\LootManager.cs" />
+    <Compile Include="Assets\Scripts\Shop\ShopMenuManager.cs" />
+    <Compile Include="Assets\Scripts\Shop\SeeSubButton.cs" />
+    <Compile Include="Assets\Scripts\Lingua\CarregarLinguaSalva.cs" />
+    <Compile Include="Assets\Scripts\Battle\WeaponMethods.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\QuadroDesafio\QuadroPontDesafio.cs" />
+    <Compile Include="Assets\Scripts\CutScenes\TextoDeAbertura.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\Merger.cs" />
+    <Compile Include="Assets\Scripts\Shop\BuyButton.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\GroundTile.cs" />
+    <Compile Include="Assets\Scripts\Shop\ActSubButton.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\UIMansao.cs" />
+    <Compile Include="Assets\Scripts\Shop\ShopStock.cs" />
+    <Compile Include="Assets\Scripts\Lingua\AlteraImagens.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuTime\RobotPartyButtonSec.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeAtaque\BotaoDeAtaque.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Castelo\AtivaElevaCast.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\PortaPuzzleEntreterimento.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\configurarAtaques\BotaoTrocarAtaque.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\Gatilho45.cs" />
+    <Compile Include="Assets\Scripts\Shop\GatilhoCutEs1.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
+    <Compile Include="Assets\Dungeonizer\Escritorio\Scripts\ChaoMagnetico.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\PartSelectionButton.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\BackGround.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\FatorobButton.cs" />
+    <Compile Include="Assets\Scripts\Battle\Attack.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\TorreFantoRob\Desenvolvedora.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\AirSoft\RifleAirsoft.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\Orgao.cs" />
+    <Compile Include="Assets\Scripts\Battle\Sons\SomBarra.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Castelo\QuadradoCor.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\Centrifuga.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Barco\BauDespensa.cs" />
+    <Compile Include="Assets\Scripts\Texto.cs" />
+    <Compile Include="Assets\Scripts\Shop\ConstruirRoboEFisico\Caixa.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\BotaoPalhaco.cs" />
+    <Compile Include="Assets\Scripts\Battle\AnimacaoTrocaPlayer.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\UICardLevel.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\RivalCozinha.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\CameraControl.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\MoveButton.cs" />
+    <Compile Include="Assets\Scripts\Shop\PreButton.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\SonsMenu.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
+    <Compile Include="Assets\Scripts\CutScenes\GatilhoTrocaDeCena.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuTime\RobotPartyButton.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\PortaoDoDesafio.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\VFX Library\PEButtonScript.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\SairTorre.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
+    <Compile Include="Assets\Scripts\Shop\ConstruirRoboEFisico\MenuSelecionarWp.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\DadosFantorob.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Castelo\Lapis.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\GPS\PontoGPS.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Fazenda\Bonde.cs" />
+    <Compile Include="Assets\Scripts\Battle\Nucleos\canhao.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\DadosMissao.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\FantoPorta.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\DadosJogador.cs" />
+    <Compile Include="Assets\Scripts\Shop\ConstruirRoboEFisico\Leticia.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\GatilhoTutorialInicial.cs" />
+    <Compile Include="Assets\Scripts\Debug\Batalha.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Fazenda\GatilhoTrocarObjeto.cs" />
+    <Compile Include="Assets\Scripts\CollisonHandler.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\RobotPart.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\PlayerObjects.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\EscondeTransicao.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\GuardaRoupa.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\ManagerGame.cs" />
+    <Compile Include="Assets\Scripts\Battle\IA.cs" />
+    <Compile Include="Assets\Scripts\Battle\MenuAnimator.cs" />
+    <Compile Include="Assets\Scripts\Shop\ConstruirRoboEFisico\MostrarEsquelEspec.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\ConfigurarBateria\BotaoTrocarBateria.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\PortaEntreterimento.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MoverMenu.cs" />
+    <Compile Include="Assets\Scripts\Celular\ConfirmarCarregar.cs" />
+    <Compile Include="Assets\Scripts\Constructor.cs" />
+    <Compile Include="Assets\Scripts\Shop\ManagerShop.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\GroundSpawner.cs" />
+    <Compile Include="Assets\Scripts\Shop\PreChangeButton.cs" />
+    <Compile Include="Assets\Scripts\Shop\ChangeRobot.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\DetalhesRobo\QuadroAtaque.cs" />
+    <Compile Include="Assets\Scripts\Shop\ConstruirRoboEFisico\BotaoSelecionarWp.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Barco\PortaBarco.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\UIDesafio.cs" />
+    <Compile Include="Assets\Scripts\Abertura\ControlaNarrador.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Fazenda\GatilhoPortao.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\AttackNote.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Walk.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\AvisoDias.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeTroca\BtCancelarTroca.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\TransicaoBatalha.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\TorreFantoRob\Portas5Andar.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Castelo\PerguntaCor.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Escritorio\ItemComChave.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\Quest\RandomQuest.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\Boliche\CorredorBoliche.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\RobotGeneralMenu.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\Pente.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\StoryEvents.cs" />
+    <Compile Include="Assets\Scripts\Battle\ActiveRobotManager.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeItem\BtCancelarItem.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\FallManager.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\CavaleiroDaCenoura.cs" />
+    <Compile Include="Assets\Scripts\Battle\Combo.cs" />
+    <Compile Include="Assets\Dungeonizer\Escritorio\Scripts\BotaoAbrirPorta.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Fazenda\GatilhoEntradaAlternativa.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\ZerarDesafio.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\GatilhoMarcador.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\AirSoft\SpawnAlvoAirSoft.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Castelo\Cavaleirodoisemeio.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\IniciarCena.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\CaixaDeSalvamento.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\MapaGoianopolis\MapaGoianopolis.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\Battery.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Castelo\PortaTorre.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\AlteraFundoBatalhaEntreterimento.cs" />
+    <Compile Include="Assets\Scripts\Tutorial\DesligaTutorial.cs" />
+    <Compile Include="Assets\Scripts\Celular\MostrarFantorobCelular.cs" />
+    <Compile Include="Assets\Scripts\Battle\AnimationController.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\CombSelectionMenu.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\AcionaMarcadorStory.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\PlayerStatus.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\TorreFantoRob\EditorPortas.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\GatilhoDialogo.cs" />
+    <Compile Include="Assets\Scripts\Battle\Nucleos\Cortante.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\TorreFantoRob\AbrePorta5Andar.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\PartyButton.cs" />
+    <Compile Include="Assets\Scripts\Celular\GerarRivalAletorio.cs" />
+    <Compile Include="Assets\Scripts\Celular\CriculoProcurando.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\WeaponSelectionButton.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Ginasio\SairArena.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\ItemBau.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\CampeaoDesafio.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\FinishPartButton.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\BotaoConfirmaMenu.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\AirSoft\BalaAirSoft.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\BotaoDesafio.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\Boliche\Pino.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeAtaque\BotaoRetornar.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuItem\ItensButton.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Castelo\CordaElevadorCast.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuItem\FecharItemMenu.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\BauCaverna.cs" />
+    <Compile Include="Assets\Scripts\SalvarAutomatico.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\GatilhoOrder.cs" />
+    <Compile Include="Assets\Scripts\Abertura\ControlaTrilhaSonoro.cs" />
+    <Compile Include="Assets\Scripts\Dialogo\GerenciadorDialogo.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\GatilhoTutorial.cs" />
+    <Compile Include="Assets\Scripts\Battle\Nucleos\Bolha.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\configurarAtaques\MenuTrocarAtaque.cs" />
+    <Compile Include="Assets\Scripts\Celular\GerarVinganca.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
+    <Compile Include="Assets\Scripts\Dialogo\NarradorAbertura.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\GatilhoTrocaCenario.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
+    <Compile Include="Assets\Scripts\Dialogo\Dialogo.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\Type.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuItem\ItensMenu.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Bauloot.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeAcao\BtItem.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\MenuElevadorEntre.cs" />
+    <Compile Include="Assets\Scripts\Shop\IAPManager.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeAcao\BtOverlock.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuTime\QuadroRobo.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
+    <Compile Include="Assets\Scripts\Battle\BattleManager.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\BackgroundSwitch.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\DetalhesRobo\BtVerAtaque.cs" />
+    <Compile Include="Assets\Scripts\CutScenes\SequenciaCena.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\BloqueioDesafio.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\DadoPente.cs" />
+    <Compile Include="Assets\Scripts\Dialogo\CaixaDialogo.cs" />
+    <Compile Include="Assets\Scripts\Battle\XFX.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\BtBarreiraEntreterimento.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\Iracema.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\TorreFantoRob\AudioPorta5Andar.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\DebugExploration.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Fazenda\Valvula.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\ControleNpcAparecer.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\Boliche\BolaBoliche.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\AvisoAtaque.cs" />
+    <Compile Include="Assets\Scripts\Battle\Move.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\Plug.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\CustumizationObject.cs" />
+    <Compile Include="Assets\Scripts\Celular\MenuInicial.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\AttackNotePlayer.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\MenuMissões\MenuMissoes.cs" />
+    <Compile Include="Assets\Scripts\Tutorial\GerenTutMarcus.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\TelaReceberFantorob.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeItem\ItemManager.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\Boliche\GerenciadorBolhice.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\TorreFantoRob\GatilhoGirino.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeAcao\BtTrocar.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\Diretor.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\BauDesafio.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\TelaFliperama.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\UIMapa.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\Circuit.cs" />
+    <Compile Include="Assets\Scripts\Shop\ConstruirRoboEFisico\PainelNFATK.cs" />
+    <Compile Include="Assets\Scripts\CutScenes\CutsceneDialogo.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\Loot.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\AlteraDirVagoneta.cs" />
+    <Compile Include="Assets\Scripts\Tutorial\GerenTutPrimMiss.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
+    <Compile Include="Assets\Scripts\GameOver\MenuGameOver.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\MusicaFugirFanto.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\QuadroJogador.cs" />
+    <Compile Include="Assets\Scripts\Battle\Destroyer.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\Cenoura.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\QuadroDesafio\LinhaQuadroDesafio.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\BotaoMenu.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\AjustarCarregamento.cs" />
+    <Compile Include="Assets\Scripts\SimluadorDeBatalha.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\Cenario.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\ComboNote.cs" />
+    <Compile Include="Assets\Scripts\Battle\Item.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\DadosStory.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\FantorobMenu.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\GatilhoTile.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeAcao\BtAtaque.cs" />
+    <Compile Include="Assets\Scripts\Shop\NotSpace.cs" />
+    <Compile Include="Assets\Scripts\Shop\ChangeButton.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Escritorio\AcionaChave.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\MapaGoianopolis\BotaoMapaGoianopolis.cs" />
+    <Compile Include="Assets\Scripts\Battle\Menus\CaixaDeAtaque\AttackManager.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Castelo\GatilhoMascaraRubraCaverna.cs" />
+    <Compile Include="Assets\Scripts\Battle\Status.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\TrocaMusica.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\SlotButton.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\BotaoSecreta.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Castelo\Marcador.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\NPCBattle.cs" />
+    <Compile Include="Assets\Scripts\Shop\ConstruirRoboEFisico\QuadroConstruiuNF.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Barco\ControleDeSaida.cs" />
+    <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\CavaleiroDaCenoura\MenuCavaleiro.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\Quest\NpcFQuest.cs" />
+    <Compile Include="Assets\Scripts\Celular\TelaVingaca.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\CentroEntreterimento\DiminuirDias.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\RoupaFantasma.cs" />
+    <Compile Include="Assets\Scripts\MenuInicial\BotaoSaveSystem.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\CoreButton.cs" />
+    <Compile Include="Assets\Scripts\Shop\DarFantorob.cs" />
+    <Compile Include="Assets\Scripts\DadosSalvos\DadoParte.cs" />
+    <Compile Include="Assets\Jack_Tolmachoff_Design\Sci Fi Pixel Art UI Kit\Demo\Scripts\CanvasController.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\InventoryButton.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Barco\PirataChave.cs" />
+    <Compile Include="Assets\Scripts\Celular\SetasTrocar.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Fazenda\NivelDagua.cs" />
+    <Compile Include="Assets\Scripts\Shop\ConstruirRoboEFisico\QuadroNucleoFisico.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MesaSolda.cs" />
+    <Compile Include="Assets\Scripts\Explorarion\Posicionador.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\GatilhoBauCorreto.cs" />
+    <Compile Include="Assets\Scripts\Battle\Scan.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Ginasio\ArremessaOvo.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\Vagoneta.cs" />
+    <Compile Include="Assets\Scripts\MenuInicial\MenuSaveSystem.cs" />
+    <Compile Include="Assets\Scripts\Battle\Nucleos\Cajado.cs" />
+    <Compile Include="Assets\Scripts\Tutorial\AtivaTutorialPrimMiss.cs" />
+    <Compile Include="Assets\Scripts\Battle\Nucleos\Escudo.cs" />
+    <Compile Include="Assets\Dungeonizer\Escritorio\Scripts\PortaCampeao.cs" />
+    <Compile Include="Assets\Scripts\CostumizationRoom\MontarRobo\CombSelectionButton.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Caverna\PortaoCaverna.cs" />
+    <Compile Include="Assets\Scripts\Dungeons\Mansao\MarcadorDirecao.cs" />
+    <Compile Include="Assets\Scripts\Lingua\AlterarIdioma.cs" />
+    <Compile Include="Assets\Scripts\HeroWalk\Menu\DetalhesRobo\ShowRobot.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
+    <Compile Include="Assets\Scripts\Shop\AcionarMenu.cs" />
+  </ItemGroup>
+  <ItemGroup>
+     <None Include="Assets\Texto\PrimeiraMissao\Escoteira\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\FazendaDagua\PegarChaveENG.txt" />
+     <None Include="Assets\Texto\Parados\Policial\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\Parados\Funkeiro\Dialogo27 1.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala13.txt" />
+     <None Include="Assets\Texto\Escritorio\FalaCampeaoAtacareng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Fazendeiro\FalaDepois1.txt" />
+     <None Include="Assets\Texto\Escritorio\AbriuElevadoreng.txt" />
+     <None Include="Assets\Texto\Parados\Ruivo\Dialogo2eng.txt" />
+     <None Include="Assets\Texto\Castelo\FalaAntes2pt.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene61\Dialogo61eng.txt" />
+     <None Include="Assets\Texto\Oswaldo\Dialogo27eng.txt" />
+     <None Include="Assets\Texto\Parados\Coelho\Dialogo34.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene51\Dialogo51.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala8eng.txt" />
+     <None Include="Assets\Texto\CutScenes\CutScene3\Dialogo4.txt" />
+     <None Include="Assets\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />
+     <None Include="Assets\Texto\Parados\Garoto\Dialogo37eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene59\Dialogo59.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\TiaAnaFala3.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene10\Dialogo1.txt" />
+     <None Include="Assets\Texto\FantoAjudante\03 - Barcopt.txt" />
+     <None Include="Assets\Texto\Parados\Roberta\Dialogo51.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Fazendeiro\FalaAtacar1eng.txt" />
+     <None Include="Assets\Texto\Parados\Medico\Dialogo34eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala2.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\Cena1eng.txt" />
+     <None Include="Assets\Texto\Parados\Policial\Dialogo13 1.txt" />
+     <None Include="Assets\Texto\PrimeiroTutorial\TutorialENG.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Coelho\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\Desafios\AbrirBauPT 1.txt" />
+     <None Include="Assets\Texto\Shirley\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\Parados\Garoto\Dialogo20.txt" />
+     <None Include="Assets\Texto\Parados\Roberta\Dialogo1.txt" />
+     <None Include="Assets\Texto\Parados\Coelho\Dialogo60.txt" />
+     <None Include="Assets\Sprites\2D_FX\READ_ME.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza43.txt" />
+     <None Include="Assets\Texto\Parados\Boneco10\Dialogo51.txt" />
+     <None Include="Assets\Texto\Dasdores\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Escritorio\AbriuUltimoAndareng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala22eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala7.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza20.txt" />
+     <None Include="Assets\Texto\Parados\Coelho\Dialogo43eng.txt" />
+     <None Include="Assets\Texto\Parados\CabeloCacheado\Dialogo20.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza27eng.txt" />
+     <None Include="Assets\Texto\Parados\GarotaCabeloRosa\Dialogo51.txt" />
+     <None Include="Assets\Texto\Parados\Ruivo\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Augusto\Dialogo43eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene59\Dialogo59eng.txt" />
+     <None Include="Assets\Texto\Barco\Instrucao1Eng.txt" />
+     <None Include="Assets\Texto\Parados\Boneco3\Dialogo27eng 1.txt" />
+     <None Include="Assets\Texto\Parados\OculosEscuros\Dialogo31eng.txt" />
+     <None Include="Assets\Texto\CavernaTatuGarimpeiro\FalaCampeaoPerdeueng 1.txt" />
+     <None Include="Assets\Texto\Parados\Mulher\Dialogo2eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala38.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala13eng.txt" />
+     <None Include="Assets\Texto\TorreFantorob\tecla.txt" />
+     <None Include="Assets\Texto\BarcoArara\PegarChavePT.txt" />
+     <None Include="Assets\Texto\Parados\Policial\Dialogo1.txt" />
+     <None Include="Assets\Texto\Parados\Medico\Dialogo1.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza39.txt" />
+     <None Include="Assets\Texto\Tesourado\Tesourado2.txt" />
+     <None Include="Assets\Texto\Panda\Dialogo51eng 1.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala1eng.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\04\FalaAtacarPt.txt" />
+     <None Include="Assets\Texto\Parados\Generico\Dialogo1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene53\Dialogo53.txt" />
+     <None Include="Assets\Texto\QuartoNeftariMarcusChamando\TiaAnachamandoeng.txt" />
+     <None Include="Assets\Epic Toon FX\Prefabs\Combat\Combat FX.txt" />
+     <None Include="Assets\Texto\TorreFantorob\AvistouPT.txt" />
+     <None Include="Assets\Texto\Parados\Coelho\Dialogo31eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene20\Dialogo20eng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Escoteira\FalaAtacar1eng.txt" />
+     <None Include="Assets\Texto\FuncionarioFantorob\Dialogo13eng 1.txt" />
+     <None Include="Assets\Texto\Parados\Pipoqueira\Dialogo1.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza1.txt" />
+     <None Include="Assets\Texto\Parados\Ruivo\Dialogo1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene17\FalaCaseiroRogereng.txt" />
+     <None Include="Assets\Texto\FantoMascara\DialogoChavept.txt" />
+     <None Include="Assets\Texto\Panda\Dialogo31.txt" />
+     <None Include="Assets\Texto\Parados\Garoto\Dialogo37.txt" />
+     <None Include="Assets\Texto\Escritorio\Naopossui.txt" />
+     <None Include="Assets\Texto\Mansao\vazio.txt" />
+     <None Include="Assets\Texto\Parados\Motoqueiro\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\BarcoArara\AbrirBauENG.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\01\FalaFicarEng.txt" />
+     <None Include="Assets\Texto\Parados\Bombeiro1\Dialogo31eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene30\Dialogo30eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene13\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\Parados\Motoqueiro\Dialogo2eng.txt" />
+     <None Include="Assets\Texto\Dasdores\Dialogo1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene50\Dialogo50eng.txt" />
+     <None Include="Assets\Texto\Tutorial\Tut5Eng.txt" />
+     <None Include="Assets\Texto\Parados\Fazendeiro\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Panda\Dialogo34eng 2.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene50\Dialogo50.txt" />
+     <None Include="Assets\Texto\Oswaldo\Dialogo2eng.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\Cena2-Parte4eng.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\04\FalaFicarPt.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\03\FalaAtacarPt.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala11eng.txt" />
+     <None Include="Assets\Texto\Mansao\PortaEng.txt" />
+     <None Include="Assets\LeanTween\ReadMe.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Macacao\FalaDepois1.txt" />
+     <None Include="Assets\Texto\Barco\Instrucao4Eng.txt" />
+     <None Include="Assets\Texto\Panda\Dialogo31eng.txt" />
+     <None Include="Assets\Texto\Parados\OculosEscuros\Dialogo34.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene71\Dialogo71.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\03\FalaFugirEng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Oculos\FalaDepois1.txt" />
+     <None Include="Assets\Texto\Parados\Ruivo\Dialogo2.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Iogurte\FalaAtacar1.txt" />
+     <None Include="Assets\Texto\Barco\RivalEng.txt" />
+     <None Include="Assets\Texto\Parados\Policial\Dialogo38eng.txt" />
+     <None Include="Assets\Texto\FantoAjudante\07 - CentroEntreterimentopt.txt" />
+     <None Include="Assets\Texto\Parados\OculosEscuros\Dialogo09eng.txt" />
+     <None Include="Assets\Texto\FazendaDagua\FalaCampeaoAtacareng 1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene11\Dialogo11.txt" />
+     <None Include="Assets\Texto\Parados\Reporter\Dialogo13.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene12\Dialogo12.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala3eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene10\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Enzo\FalaAtacar1eng.txt" />
+     <None Include="Assets\Texto\Parados\Jaleco\Dialogo20.txt" />
+     <None Include="Assets\Texto\Parados\CameraMan\Dialogo51.txt" />
+     <None Include="Assets\Texto\Oswaldo\Dialogo27.txt" />
+     <None Include="Assets\Texto\Celular\Narrador1.txt" />
+     <None Include="Assets\Texto\Parados\Roberta\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\Castelo\FalaAntes4eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene56\Dialogo56.txt" />
+     <None Include="Assets\Texto\Parados\Boneco3\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\Parados\Policial\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene34\Dialogo34eng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\E-girl\FalaAtacar1.txt" />
+     <None Include="Assets\Texto\Mansao\vazioEng.txt" />
+     <None Include="Assets\Texto\CentroEntreterimento\Abelha\FalaCampeaoPerdeueng 2.txt" />
+     <None Include="Assets\Texto\Barco\Instrucao4.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\04\FalaFicarEng.txt" />
+     <None Include="Assets\Texto\Parados\Roberta\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\FantoAjudante\07 - CentroEntreterimentoeng.txt" />
+     <None Include="Assets\Texto\Parados\Idoso\Dialogo13.txt" />
+     <None Include="Assets\Texto\Parados\Reporter\Dialogo51.txt" />
+     <None Include="Assets\Texto\Parados\Pipoqueiro\Dialogo1.txt" />
+     <None Include="Assets\Texto\Parados\Reporter\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene17\FalaCaseiroRoger.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene6\Dialogo7.txt" />
+     <None Include="Assets\Texto\Parados\Bombeiro2\Dialogo13.txt" />
+     <None Include="Assets\Texto\Parados\Jaleco\Dialogo20eng.txt" />
+     <None Include="Assets\Texto\Parados\FantoMascara\Dialogo1.txt" />
+     <None Include="Assets\Texto\CentroEntreterimento\MaquinaCartao\AumentouNivelEng.txt" />
+     <None Include="Assets\Texto\Npc\Npctesteeng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene35\Dialogo35eng.txt" />
+     <None Include="Assets\Texto\Parados\Terno\Dialogo51.txt" />
+     <None Include="Assets\Texto\Parados\Idoso\Dialogo20eng.txt" />
+     <None Include="Assets\Texto\FantoAjudante\01-Escritorioseng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene34\Dialogo34eng 1.txt" />
+     <None Include="Assets\Texto\FazendaDagua\PegarChavePT.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene64\Dialogo64Deng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene19\Dialogo19.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Iogurte\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\Circo\placa.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene67\Dialogo67D.txt" />
+     <None Include="Assets\Texto\Barco\Errou4Eng.txt" />
+     <None Include="Assets\Texto\Escritorio\FalaCampeaoPerdeu.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene40\Dialogo40eng.txt" />
+     <None Include="Assets\Texto\Batalha\BattleTexts.txt" />
+     <None Include="Assets\Texto\Dasdores\Dialogo51.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\TiaAnaFala1.txt" />
+     <None Include="Assets\Texto\Enzo\FalaDepois1.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\01\FalaFugirEng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene35\Dialogo35.txt" />
+     <None Include="Assets\Texto\TorreFantorob\teclaEng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala14eng.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza10eng.txt" />
+     <None Include="Assets\Texto\CentroEntreterimento\MaquinaCartao\QuebradoPt.txt" />
+     <None Include="Assets\Texto\Barco\Errou5.txt" />
+     <None Include="Assets\Texto\Dasdores\Dialogo13.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene27\Dialogo27eng.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza34eng.txt" />
+     <None Include="Assets\Texto\TorreFantorob\vazio.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene66\Dialogo66.txt" />
+     <None Include="Assets\Texto\Parados\Mulher\Dialogo43.txt" />
+     <None Include="Assets\Texto\CasteloReiCachorro\FalaCampeaoPerdeu 1.txt" />
+     <None Include="Assets\LeanTween\License.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\E-girl\FalaAtacar1eng.txt" />
+     <None Include="Assets\Texto\Princesa\FalaDepois1.txt" />
+     <None Include="Assets\Texto\Panda\Dialogo51.txt" />
+     <None Include="Assets\Texto\Barco\Instrucao2.txt" />
+     <None Include="Assets\Texto\Castelo\FalaAntes1pt.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene22\Dialogo22.txt" />
+     <None Include="Assets\Texto\Oswaldo\Fala1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene33\Dialogo33.txt" />
+     <None Include="Assets\Texto\Parados\CameraMan\13eng.txt" />
+     <None Include="Assets\Texto\Mansao\tecla.txt" />
+     <None Include="Assets\Texto\FazendaDagua\FalaCampeaoPerdeu 1.txt" />
+     <None Include="Assets\Texto\Parados\Idosa\Dialogo2.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene69\Dialogo69.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene24\Dialogo24.txt" />
+     <None Include="Assets\Texto\CoelhoCompositor\FalaCampeaoAtacar 1.txt" />
+     <None Include="Assets\Texto\Escritorio\possui.txt" />
+     <None Include="Assets\Texto\Parados\CameraMan\Dialogo51 1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene52\Dialogo52eng.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza21.txt" />
+     <None Include="Assets\Hero and Opponents\license.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene46\Dialogo46.txt" />
+     <None Include="Assets\Texto\Parados\Boneco10\Dialogo31eng.txt" />
+     <None Include="Assets\Texto\Parados\Bombeiro1\Dialogo34.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene19\Dialogo19eng.txt" />
+     <None Include="Assets\Texto\Tutorial\FalaMarcusEng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Funkeiro\FalaAtacar1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene8\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Parados\Idoso\Dialogo43eng.txt" />
+     <None Include="Assets\Texto\CoelhoCompositor\FalaCampeaoAtacareng 1.txt" />
+     <None Include="Assets\Texto\Policial\FalaBatalha1.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Coelho\FalaDepois1.txt" />
+     <None Include="Assets\Texto\CoelhoCompositor\FalaCampeaoPerdeu 1.txt" />
+     <None Include="Assets\Texto\Parados\Metaleiro\Dialogo1 1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene2\Dialogo3eng.txt" />
+     <None Include="Assets\Texto\Parados\Heloise\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala7eng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Medico\FalaAtacar1eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala34.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene4\Dialogo5eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene71\Dialogo71veng.txt" />
+     <None Include="Assets\Texto\Roberta\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\Parados\Bombeiro1\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala11.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala34eng.txt" />
+     <None Include="Assets\Texto\Barco\Instrucao3.txt" />
+     <None Include="Assets\Texto\Parados\Policial\Dialogo38.txt" />
+     <None Include="Assets\Texto\Parados\Iracema\Dialogo51.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza12.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza22eng.txt" />
+     <None Include="Assets\Texto\Enzo\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\Caverna\MochilaPT.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene64\Dialogo64V.txt" />
+     <None Include="Assets\Texto\Parados\Boneco3\Dialogo27.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala27eng.txt" />
+     <None Include="Assets\Texto\BarcoPirataEsfiha\FalaAgradecerPT.txt" />
+     <None Include="Assets\Texto\BarcoPirataEsfiha\FalaPedirEng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene4\Dialogo5.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza19eng.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza10.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Coelho\FalaAtacar1eng.txt" />
+     <None Include="Assets\Texto\Parados\CameraMan\Dialogo51eng 1.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza34.txt" />
+     <None Include="Assets\Texto\CentroEntreterimento\MaquinaCartao\QuebradoEng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene13\Dialogo13.txt" />
+     <None Include="Assets\Texto\QuartoNeftari\Portugues.txt" />
+     <None Include="Assets\Texto\Parados\Idoso\Dialogo43.txt" />
+     <None Include="Assets\Texto\Parados\Mulher\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene44\Dialogo44eng.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\TiaAnaFala4eng.txt" />
+     <None Include="Assets\Texto\Mansao\PortaPt.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene68\Dialogo68veng.txt" />
+     <None Include="Assets\Texto\Parados\Boneco7\Dialogo27eng 1.txt" />
+     <None Include="Assets\Texto\Oswaldo\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\Parados\Policial\Dialogo13.txt" />
+     <None Include="Assets\Ultra Emissive Particles Shader\Shaders\ParticleEmmissive.shader" />
+     <None Include="Assets\Texto\PrimeiraMissao\Macacao\FalaAtacar1eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene56\Dialogo56eng.txt" />
+     <None Include="Assets\Texto\Parados\Boneco5\Dialogo43.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene32\Dialogo32.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene26\Dialogo26.txt" />
+     <None Include="Assets\Texto\CentroEntreterimento\Abelha\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Npc\Npcteste.txt" />
+     <None Include="Assets\Texto\Parados\Bombeiro2\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene39\Dialogo39 1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene62\Dialogo62Deng.txt" />
+     <None Include="Assets\Texto\Parados\GarotaCabeloRosa\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Medico\FalaDepois1.txt" />
+     <None Include="Assets\Texto\Princesa\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\MiguelMaromba\Dialogo13.txt" />
+     <None Include="Assets\Texto\Parados\Funkeiro\Dialogo34eng.txt" />
+     <None Include="Assets\Texto\Parados\Roberta\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\CasteloReiCachorro\FalaCampeaoPerdeueng 1.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\04\FalaFugirEng.txt" />
+     <None Include="Assets\Texto\Escritorio\possuieng.txt" />
+     <None Include="Assets\Texto\Tutorial\Tut1Eng.txt" />
+     <None Include="Assets\Texto\TorreFantorob\TV1PT.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene64\Dialogo64D.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene57\Dialogo57.txt" />
+     <None Include="Assets\Texto\Parados\Idoso\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\Augusto\Dialogo49.txt" />
+     <None Include="Assets\Texto\Escritorio\Naopossuieng.txt" />
+     <None Include="Assets\Texto\Roberta\Dialogo13.txt" />
+     <None Include="Assets\Texto\Mansao\TemRoupaPT.txt" />
+     <None Include="Assets\Texto\Mansao\AvistouEng.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\Cena2-Parte2eng.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\02\FalaFugirPt.txt" />
+     <None Include="Assets\Texto\Barco\Errou3.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Oculos\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\FuncionarioFantorob\Dialogo13 1.txt" />
+     <None Include="Assets\Texto\Barco\Errou1Eng.txt" />
+     <None Include="Assets\Texto\Parados\Boneco5\Dialogo60.txt" />
+     <None Include="Assets\Texto\Barco\PapelEntradaPT.txt" />
+     <None Include="Assets\Texto\Mansao\AvistouPT.txt" />
+     <None Include="Assets\Texto\TorreFantorob\TV1Eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene30\Dialogo30.txt" />
+     <None Include="Assets\Texto\Parados\Garota\Dialogo27eng.txt" />
+     <None Include="Assets\Texto\Parados\Boneco2\Dialogo27.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene46\Dialogo46eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene13\13-1-eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene7\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Parados\CameraMan\13.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene42\Dialogo42.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene47\Dialogo47eng.txt" />
+     <None Include="Assets\Texto\Parados\CabeloCacheado\Dialogo20eng.txt" />
+     <None Include="Assets\Texto\FantoMascara\DialogoChaveeng.txt" />
+     <None Include="Assets\Texto\Mansao\NaoTemRoupaEng.txt" />
+     <None Include="Assets\Texto\Parados\Terno\Dialogo1.txt" />
+     <None Include="Assets\Texto\Parados\Garota\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene54\Dialogo54eng.txt" />
+     <None Include="Assets\Texto\Parados\Flamenguista\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene8\Dialogo1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene54\Dialogo54.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza22.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\01\FalaAtacarPt.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza1eng.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\TiaAnaFala1eng.txt" />
+     <None Include="Assets\Texto\Parados\Policial\Dialogo13eng 1.txt" />
+     <None Include="Assets\Texto\Dasdores\Dialogo43.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\TiaAnaFala2eng.txt" />
+     <None Include="Assets\Texto\BarcoArara\FalaCampeaoPerdeu 1.txt" />
+     <None Include="Assets\Texto\Parados\Escoteira\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala31eng.txt" />
+     <None Include="Assets\Texto\Castelo\FalaAntes3eng.txt" />
+     <None Include="Assets\Texto\CentroEntreterimento\MaquinaCartao\ImpossivelEng.txt" />
+     <None Include="Assets\Texto\BarcoArara\PegarChaveENG.txt" />
+     <None Include="Assets\Texto\Parados\OculosEscuros\Dialogo34eng.txt" />
+     <None Include="Assets\Texto\Parados\Escoteira\Dialogo22.txt" />
+     <None Include="Assets\Texto\Tutorial\Tut3Eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene32\Dialogo32eng.txt" />
+     <None Include="Assets\Texto\Batalha\TextoDeBatalha.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\03\FalaFicarPt.txt" />
+     <None Include="Assets\Texto\Ranzinza\Fala10.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\01\FalaAtacarEng.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\03\FalaFicarEng.txt" />
+     <None Include="Assets\Texto\Parados\Jaleco\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Panda\FalaDepois1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene13\13-2V.txt" />
+     <None Include="Assets\Texto\FazendaDagua\FalaCampeaoAtacar 1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene2\Dialogo3.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene17\Dialogo17eng.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\Cena2-Neftarieng.txt" />
+     <None Include="Assets\Texto\Parados\Medico\Dialogo34.txt" />
+     <None Include="Assets\Texto\FantoAjudante\05 - CavernaEng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\E-girl\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\Enzo\FalaAtacar1.txt" />
+     <None Include="Assets\Texto\Parados\Boneco5\Dialogo43eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene34\Dialogo34.txt" />
+     <None Include="Assets\Texto\Parados\Terno\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\Parados\Idoso\Dialogo1.txt" />
+     <None Include="Assets\Texto\Barco\AcertouEng.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\TiaAnaFala41.txt" />
+     <None Include="Assets\Texto\CentroEntreterimento\Abelha\Dialogo1pt.txt" />
+     <None Include="Assets\Texto\CentroEntreterimento\MaquinaCartao\ImpossivelPt.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\01\FalaFugirPt.txt" />
+     <None Include="Assets\Texto\Barco\Errou2.txt" />
+     <None Include="Assets\Texto\Parados\Boneco10\Dialogo34.txt" />
+     <None Include="Assets\Texto\Parados\Coelho\Dialogo31.txt" />
+     <None Include="Assets\Texto\Tutorial\Tut5PT.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala55.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene65\Dialogo65.txt" />
+     <None Include="Assets\Texto\Ranzinza\Fala10eng.txt" />
+     <None Include="Assets\Texto\Parados\Estudante\Dialogo43.txt" />
+     <None Include="Assets\Texto\Desafios\AtalhoEng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Coelho\FalaAtacar1.txt" />
+     <None Include="Assets\Texto\Parados\Estudante\Dialogo43eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala2eng.txt" />
+     <None Include="Assets\Texto\Panda\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene62\Dialogo62V.txt" />
+     <None Include="Assets\Texto\Dasdores\Dialogo27eng.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza12eng.txt" />
+     <None Include="Assets\Texto\Tesourado\Tesourado.txt" />
+     <None Include="Assets\Texto\Augusto\Dialogo22eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene16\Dialogo16.txt" />
+     <None Include="Assets\Texto\Oswaldo\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\E-girl\FalaDepois1.txt" />
+     <None Include="Assets\Texto\Dasdores\Dialogo43eng.txt" />
+     <None Include="Assets\Texto\Escritorio\AbriuElevador.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Escoteira\FalaDepois1.txt" />
+     <None Include="Assets\Texto\Parados\Arnaldo\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\Augusto\Dialogo49eng.txt" />
+     <None Include="Assets\Texto\Ranzinza\Fala0eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene39\Dialogo39eng 1.txt" />
+     <None Include="Assets\Epic Toon FX\Prefabs\Interactive\Interactive FX.txt" />
+     <None Include="Assets\Texto\Parados\Coelho\Dialogo60eng.txt" />
+     <None Include="Assets\Texto\Castelo\FalaAntes1eng.txt" />
+     <None Include="Assets\Texto\FantoAjudante\02-Fazendaeng.txt" />
+     <None Include="Assets\Texto\FantoAjudante\06 - MansaoEng.txt" />
+     <None Include="Assets\Texto\Barco\Instrucao2Eng.txt" />
+     <None Include="Assets\Texto\Dasdores\Dialogo13eng 1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene17\Dialogo17.txt" />
+     <None Include="Assets\Texto\Castelo\FalaDepoiseng.txt" />
+     <None Include="Assets\Texto\Tutorial\Tut4Eng.txt" />
+     <None Include="Assets\Texto\Dasdores\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\Caverna\MochilaENG.txt" />
+     <None Include="Assets\Texto\Barco\Errou4.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene67\Dialogo67veng.txt" />
+     <None Include="Assets\Texto\Dasdores\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\Parados\Boneco10\Dialogo31.txt" />
+     <None Include="Assets\Texto\Parados\Pipoqueira\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\TiaAnaFala2.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\03\FalaAtacarEng.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\Cena2-Parte4.txt" />
+     <None Include="Assets\Texto\BarcoArara\FalaCampeaoAtacar 1.txt" />
+     <None Include="Assets\Texto\Parados\Bombeiro1\Dialogo34eng.txt" />
+     <None Include="Assets\Texto\Ranzinza\Fala0.txt" />
+     <None Include="Assets\Texto\Barco\Instrucao5.txt" />
+     <None Include="Assets\Texto\BarcoArara\AbrirBauPT.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene42\Dialogo42eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene11\Dialogo11eng.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza38.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene7\Dialogo1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene72\Dialogo72veng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala1.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala22.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Macacao\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene18\Dialogo18.txt" />
+     <None Include="Assets\Texto\Parados\Iracema\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene57\Dialogo57eng.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\02\FalaAtacarEng.txt" />
+     <None Include="Assets\Texto\Barco\Instrucao3Eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene61\Dialogo61.txt" />
+     <None Include="Assets\Texto\FantoAjudante\04 - CasteloEng.txt" />
+     <None Include="Assets\Texto\FantoAjudante\03 - Barcoeng.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\04\FalaAtacarEng.txt" />
+     <None Include="Assets\Texto\Desafios\AbrirBauENG 1.txt" />
+     <None Include="Assets\Texto\Parados\Jaleco\Dialogo51.txt" />
+     <None Include="Assets\Texto\Parados\Pipoqueiro\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene6\Dialogo7eng.txt" />
+     <None Include="Assets\Texto\Ranzinza\Fala43.txt" />
+     <None Include="Assets\Texto\FantoAjudante\05 - Cavernapt.txt" />
+     <None Include="Assets\Texto\Parados\OculosEscuros\Dialogo20eng.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\02\FalaFicarEng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene38\Dialogo38.txt" />
+     <None Include="Assets\Texto\Parados\Motoqueiro\Dialogo1.txt" />
+     <None Include="Assets\Texto\Parados\CameraMan\13eng 1.txt" />
+     <None Include="Assets\Texto\QuartoNeftariMarcusChamando\TiaAnachamando.txt" />
+     <None Include="Assets\Texto\Parados\Heloise\Dialogo51.txt" />
+     <None Include="Assets\Texto\MiguelMaromba\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Medico\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\Parados\Jaleco\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene13\13-2D.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene63\Dialogo63.txt" />
+     <None Include="Assets\Texto\CoelhoCompositor\FalaCampeaoPerdeueng 1.txt" />
+     <None Include="Assets\Texto\Abertura\Portugues\NarradorEng.txt" />
+     <None Include="Assets\Texto\Princesa\FalaBatalha1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene24\Dialogo24eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene21\Dialogo21.txt" />
+     <None Include="Assets\Texto\BarcoPirataEsfiha\FalaAgradecerschaveEng 1.txt" />
+     <None Include="Assets\Texto\Parados\Generico\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Oculos\FalaAtacar1eng.txt" />
+     <None Include="Assets\Texto\Parados\Bombeiro1\Dialogo35eng.txt" />
+     <None Include="Assets\Texto\Castelo\FalaAntes4pt.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene66\Dialogo66eng.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\Cena2-Neftari.txt" />
+     <None Include="Assets\Texto\Castelo\Acertou.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene5\Dialogo6eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene26\Dialogo26eng.txt" />
+     <None Include="Assets\Texto\BarcoArara\FalaCampeaoAtacareng 1.txt" />
+     <None Include="Assets\Texto\Panda\FalaAtacar1.txt" />
+     <None Include="Assets\Texto\CavernaTatuGarimpeiro\FalaCampeaoAtacar 1.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza38eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene35\Dialogo35 1.txt" />
+     <None Include="Assets\Texto\Caverna\AbrirBauENG 1.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\TiaAnaFala4.txt" />
+     <None Include="Assets\Texto\Escritorio\FalaCampeaoPerdeueng.txt" />
+     <None Include="Assets\Texto\Parados\Escoteira\Dialogo22eng.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\TiaAnaFala57eng.txt" />
+     <None Include="Assets\Texto\Castelo\FalaAntes3pt.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Funkeiro\FalaDepois1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene35\Dialogo35eng 1.txt" />
+     <None Include="Assets\Texto\Parados\CameraMan\13 1.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza43eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene62\Dialogo62D.txt" />
+     <None Include="Assets\Texto\Tesourado\Tesouradoeng.txt" />
+     <None Include="Assets\Texto\Mansao\TemRoupaEng.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza27.txt" />
+     <None Include="Assets\Texto\FazendaDagua\AbrirBauENG.txt" />
+     <None Include="Assets\Texto\Parados\Medico\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala21eng.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\02\FalaFicarPt.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene23\Dialogo23.txt" />
+     <None Include="Assets\Texto\CavernaTatuGarimpeiro\FalaCampeaoPerdeu 1.txt" />
+     <None Include="Assets\Texto\Barco\Errou1.txt" />
+     <None Include="Assets\Texto\Oswaldo\Dialogo13.txt" />
+     <None Include="Assets\Texto\Parados\Garoto\Dialogo1.txt" />
+     <None Include="Assets\Texto\Augusto\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala12.txt" />
+     <None Include="Assets\Texto\Parados\Bombeiro1\Dialogo31.txt" />
+     <None Include="Assets\Texto\Circo\placaeng.txt" />
+     <None Include="Assets\Texto\CentroEntreterimento\Abelha\FalaCampeaoPerdeu 2.txt" />
+     <None Include="Assets\Texto\Parados\CameraMan\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene5\Dialogo6.txt" />
+     <None Include="Assets\Texto\Celular\Narrador2eng.txt" />
+     <None Include="Assets\Texto\Parados\Portaria\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Parados\Palhaço\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Augusto\Dialogo13.txt" />
+     <None Include="Assets\Texto\FantoAjudante\06 - Mansaopt.txt" />
+     <None Include="Assets\Texto\Barco\Instrucao1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene67\Dialogo67V.txt" />
+     <None Include="Assets\Texto\Parados\Funkeiro\Dialogo34.txt" />
+     <None Include="Assets\Texto\Parados\GarotaMacacao\Dialogo43eng.txt" />
+     <None Include="Assets\Texto\Parados\Jaleco\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\CasteloReiCachorro\FalaCampeaoAtacar 1.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\Cena2-Parte2.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene13\13-1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene23\Dialogo23eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene63\Dialogo63eng.txt" />
+     <None Include="Assets\Texto\Parados\Fazendeiro\Dialogo1.txt" />
+     <None Include="Assets\Texto\Parados\Heloise\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\Parados\Jaleco\Dialogo13.txt" />
+     <None Include="Assets\Texto\CentroEntreterimento\MaquinaCartao\AumentouNivelPt.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala20.txt" />
+     <None Include="Assets\Texto\Barco\BauEng.txt" />
+     <None Include="Assets\Texto\Augusto\Dialogo1.txt" />
+     <None Include="Assets\Texto\Barco\Acertou.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene60\Dialogo60.txt" />
+     <None Include="Assets\Texto\Abertura\Portugues\Narrador.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene48\Dialogo48eng.txt" />
+     <None Include="Assets\Texto\Parados\OculosEscuros\Dialogo60eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene44\Dialogo44.txt" />
+     <None Include="Assets\Texto\BarcoPirataEsfiha\FalaAgradecerEng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Oculos\FalaAtacar1.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\01\FalaFicarPt.txt" />
+     <None Include="Assets\Texto\Policial\FalaDepois1.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza55.txt" />
+     <None Include="Assets\Texto\Parados\Idoso\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Parados\Boneco7\Dialogo27.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\Cena2-Parte3eng.txt" />
+     <None Include="Assets\Texto\Desafios\AtalhoPt.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza13eng.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\TiaAnaFala57.txt" />
+     <None Include="Assets\LeanTween\Examples\Archived\2dUnlitWithFade.shader" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\04\FalaFugirPt.txt" />
+     <None Include="Assets\Texto\Barco\Errou2Eng.txt" />
+     <None Include="Assets\Texto\Parados\Bombeiro1\Dialogo35.txt" />
+     <None Include="Assets\Texto\Parados\Medico\Dialogo31.txt" />
+     <None Include="Assets\Texto\CentroEntreterimento\Abelha\FalaCampeaoAtacareng 2.txt" />
+     <None Include="Assets\Texto\Parados\Arnaldo\Dialogo51.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene69\Dialogo69veng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene52\Dialogo52.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\TiaAnaFala3eng.txt" />
+     <None Include="Assets\Texto\Castelo\FalaAntes2eng.txt" />
+     <None Include="Assets\Texto\Policial\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\FazendaDagua\FalaCampeaoPerdeueng 1.txt" />
+     <None Include="Assets\Texto\Caverna\AbrirPortaoPT.txt" />
+     <None Include="Assets\Texto\Mansao\NaoTemRoupaPT.txt" />
+     <None Include="Assets\Texto\Caverna\AbrirPortaoENG.txt" />
+     <None Include="Assets\Texto\Parados\Garota\Dialogo20eng.txt" />
+     <None Include="Assets\Texto\Oswaldo\Dialogo2.txt" />
+     <None Include="Assets\Texto\Parados\BeijaFlor\Dialogo43eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene60\Dialogo60eng.txt" />
+     <None Include="Assets\Texto\Leonidas\Dialogo51eng 1.txt" />
+     <None Include="Assets\Texto\Parados\Reporter\Dialogo13eng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Iogurte\FalaAtacar1eng.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\TiaAnaFala41eng.txt" />
+     <None Include="Assets\Texto\Parados\Bombeiro2\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Iogurte\FalaDepois1.txt" />
+     <None Include="Assets\Texto\Parados\Generico\Dialogo2eng.txt" />
+     <None Include="Assets\Texto\FazendaDagua\AbrirBauPT.txt" />
+     <None Include="Assets\Texto\TorreFantorob\TV2PT.txt" />
+     <None Include="Assets\Texto\Parados\Garota\Dialogo1.txt" />
+     <None Include="Assets\Texto\Parados\Coelho\Dialogo34eng.txt" />
+     <None Include="Assets\Texto\Tutorial\Tut3PT.txt" />
+     <None Include="Assets\Texto\Parados\Coelho\Dialogo43.txt" />
+     <None Include="Assets\Texto\TorreFantorob\vazioEng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene47\Dialogo47.txt" />
+     <None Include="Assets\Texto\FantoAjudante\01-Escritorios.txt" />
+     <None Include="Assets\Texto\Parados\Bombeiro2\Dialogo1.txt" />
+     <None Include="Assets\Texto\Ranzinza\Fala43eng.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\02\FalaAtacarPt.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene25\Dialogo26eng.txt" />
+     <None Include="Assets\Texto\Shirley\FalaBatalha1eng.txt" />
+     <None Include="Assets\Texto\Tutorial\Tut2Eng.txt" />
+     <None Include="Assets\Texto\Mansao\Palhaco.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Medico\FalaAtacar1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene18\Dialogo18eng.txt" />
+     <None Include="Assets\Texto\Parados\BeijaFlor\Dialogo43.txt" />
+     <None Include="Assets\Texto\Parados\Jaleco\Dialogo1.txt" />
+     <None Include="Assets\Texto\PrimeiroTutorial\TutorialPT.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza13.txt" />
+     <None Include="Assets\Texto\Parados\Garoto\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Parados\Garota\Dialogo27.txt" />
+     <None Include="Assets\Texto\Parados\Motoqueiro\Dialogo2.txt" />
+     <None Include="Assets\Texto\Celular\Narrador1eng.txt" />
+     <None Include="Assets\Jack_Tolmachoff_Design\Sci Fi Pixel Art UI Kit\Font\FontAttribution.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Fazendeiro\FalaAtacar1.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Macacao\FalaAtacar1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene27\Dialogo27.txt" />
+     <None Include="Assets\Texto\Panda\Dialogo34.txt" />
+     <None Include="Assets\Texto\Parados\OculosEscuros\Dialogo31.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala43eng.txt" />
+     <None Include="Assets\Texto\Parados\Mulher\Dialogo13.txt" />
+     <None Include="Assets\Texto\Parados\Iracema\Dialogo1.txt" />
+     <None Include="Assets\Texto\Barco\Errou3Eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene65\Dialogo65eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala19eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala21.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala39eng.txt" />
+     <None Include="Assets\Texto\Parados\Portaria\Dialogo1.txt" />
+     <None Include="Assets\Texto\Tutorial\Tut4PT.txt" />
+     <None Include="Assets\Texto\Parados\Estudante\Dialogo22eng.txt" />
+     <None Include="Assets\Texto\FantoAjudante\02-fazendapt.txt" />
+     <None Include="Assets\Texto\Parados\Escoteira\Dialogo1.txt" />
+     <None Include="Assets\Texto\Parados\Rival\Dialogo1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene12\Dialogo12eng.txt" />
+     <None Include="Assets\Texto\Parados\OculosEscuros\Dialogo20.txt" />
+     <None Include="Assets\Texto\Dasdores\Dialogo13 1.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza14.txt" />
+     <None Include="Assets\Texto\Parados\Boneco10\Dialogo34eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala12eng.txt" />
+     <None Include="Assets\Texto\Parados\Mulher\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene43\Dialogo43.txt" />
+     <None Include="Assets\Texto\BarcoArara\FalaCampeaoPerdeueng 1.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Funkeiro\FalaAtacar1eng.txt" />
+     <None Include="Assets\Texto\Parados\Rival\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene25\Dialogo26.txt" />
+     <None Include="Assets\Texto\Barco\Rival.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza20eng.txt" />
+     <None Include="Assets\Texto\Parados\Medico\Dialogo31eng.txt" />
+     <None Include="Assets\Texto\TorreFantorob\AvistouEng.txt" />
+     <None Include="Assets\Texto\CasteloReiCachorro\FalaCampeaoAtacareng 1.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\Cena2-Parte3.txt" />
+     <None Include="Assets\Texto\Parados\Garota\Dialogo20.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Fazendeiro\FalaDepois1eng.txt" />
+     <None Include="Assets\Texto\Oswaldo\Fala1eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene31\Dialogo31eng.txt" />
+     <None Include="Assets\Texto\Escritorio\Rivaleng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene67\Dialogo67Deng.txt" />
+     <None Include="Assets\Texto\Parados\Estudante\Dialogo22.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala38eng.txt" />
+     <None Include="Assets\Texto\Parados\Boneco5\Dialogo60eng.txt" />
+     <None Include="Assets\Texto\Shirley\FalaDepois1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene39\Dialogo39eng.txt" />
+     <None Include="Assets\Texto\Parados\Terno\Dialogo2eng.txt" />
+     <None Include="Assets\Texto\Tutorial\Tut1PT.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene53\Dialogo53eng.txt" />
+     <None Include="Assets\Texto\Dasdores\Dialogo27.txt" />
+     <None Include="Assets\Texto\Parados\Idoso\Dialogo20.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza19.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza11.txt" />
+     <None Include="Assets\Texto\CentroEntreterimento\Abelha\FalaCampeaoAtacar 2.txt" />
+     <None Include="Assets\Texto\Escritorio\Rival.txt" />
+     <None Include="Assets\Texto\Leonidas\Dialogo51.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene51\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\BarcoPirataEsfiha\FalaAgradecerschavePT 1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene31\Dialogo31.txt" />
+     <None Include="Assets\Texto\Panda\FalaAtacar1eng.txt" />
+     <None Include="Assets\Texto\Barco\BauPT.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza14eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala43.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala19.txt" />
+     <None Include="Assets\Texto\Escritorio\FalaCampeaoAtacar.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala31.txt" />
+     <None Include="Assets\Texto\Castelo\AcertouEng.txt" />
+     <None Include="Assets\Texto\Celular\Narrador2.txt" />
+     <None Include="Assets\Texto\TorreFantorob\TV2Eng.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\03\FalaFugirPt.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene72\Dialogo72.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene68\Dialogo68.txt" />
+     <None Include="Assets\Texto\Parados\Roberta\Dialogo13.txt" />
+     <None Include="Assets\Texto\Parados\Boneco3\Dialogo13.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene20\Dialogo20.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene62\Dialogo62Veng.txt" />
+     <None Include="Assets\Texto\Augusto\Dialogo43.txt" />
+     <None Include="Assets\Texto\Tutorial\Tut2PT.txt" />
+     <None Include="Assets\Texto\CavernaTatuGarimpeiro\FalaCampeaoAtacareng 1.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala39.txt" />
+     <None Include="Assets\Texto\Parados\OculosEscuros\Dialogo60.txt" />
+     <None Include="Assets\Texto\Parados\Idosa\Dialogo2eng.txt" />
+     <None Include="Assets\Texto\Parados\Boneco10\Dialogo51eng.txt" />
+     <None Include="Assets\Texto\Shirley\FalaBatalha1.txt" />
+     <None Include="Assets\Texto\Parados\Mulher\Dialogo2.txt" />
+     <None Include="Assets\Texto\Escritorio\AbriuUltimoAndar.txt" />
+     <None Include="Assets\Texto\Mansao\teclaEng.txt" />
+     <None Include="Assets\Texto\CutScenes\CutScene3\Dialogo4eng.txt" />
+     <None Include="Assets\Texto\Parados\Metaleiro\Dialogo1eng 1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene64\Dialogo64Veng.txt" />
+     <None Include="Assets\Texto\Tutorial\FalaMarcusPT.txt" />
+     <None Include="Assets\Texto\Parados\OculosEscuros\Dialogo09.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala27.txt" />
+     <None Include="Assets\Texto\Oswaldo\Dialogo51.txt" />
+     <None Include="Assets\Texto\Barco\PapelEntradaEng.txt" />
+     <None Include="Assets\Texto\Parados\Flamenguista\Dialogo1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene70\Dialogo70veng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene33\Dialogo33eng.txt" />
+     <None Include="Assets\Texto\Mansao\PalhacoEng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene16\Dialogo16eng.txt" />
+     <None Include="Assets\Texto\Parados\Boneco2\Dialogo27eng 1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene43\Dialogo43eng.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza55eng.txt" />
+     <None Include="Assets\Texto\Barco\ExplicacaoPTEng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene40\Dialogo40.txt" />
+     <None Include="Assets\Texto\Parados\Iracema\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Parados\Mulher\Dialogo43eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene39\Dialogo39.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala8.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Escoteira\FalaAtacar1.txt" />
+     <None Include="Assets\Texto\Augusto\Dialogo22.txt" />
+     <None Include="Assets\Texto\Parados\Palhaço\Dialogo1.txt" />
+     <None Include="Assets\Texto\Barco\ExplicacaoPT.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene38\Dialogo38eng.txt" />
+     <None Include="Assets\Texto\QuartoNeftari\English.txt" />
+     <None Include="Assets\Texto\Parados\Terno\Dialogo2.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala20eng.txt" />
+     <None Include="Assets\Texto\Parados\Generico\Dialogo2.txt" />
+     <None Include="Assets\Texto\Parados\Heloise\Dialogo1.txt" />
+     <None Include="Assets\Texto\Caverna\AbrirBauPT 1.txt" />
+     <None Include="Assets\Texto\Parados\Funkeiro\Dialogo27eng.txt" />
+     <None Include="Assets\Texto\Parados\Terno\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\Castelo\FalaDepoispt.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene48\Dialogo48.txt" />
+     <None Include="Assets\Texto\Caverna\FantoMascaraFugitivo\02\FalaFugirEng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala14.txt" />
+     <None Include="Assets\Texto\Sala E Cozinha\Cena1.txt" />
+     <None Include="Assets\Texto\FantoAjudante\04 - Castelopt.txt" />
+     <None Include="Assets\Texto\Parados\Bombeiro1\Dialogo13 1.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene34\Dialogo34 1.txt" />
+     <None Include="Assets\Texto\Tesourado\Tesourado2eng.txt" />
+     <None Include="Assets\Texto\Parados\GarotaMacacao\Dialogo43.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene21\Dialogo21eng.txt" />
+     <None Include="Assets\Texto\Parados\Boneco10\Dialogo27.txt" />
+     <None Include="Assets\Texto\Parados\Garoto\Dialogo20eng.txt" />
+     <None Include="Assets\Texto\Parados\Mulher\Dialogo1.txt" />
+     <None Include="Assets\Texto\Policial\FalaBatalha1eng.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza11eng.txt" />
+     <None Include="Assets\Texto\Princesa\FalaBatalha1eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene22\Dialogo22eng.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza39eng.txt" />
+     <None Include="Assets\Texto\CutScenes\Cutscene70\Dialogo70.txt" />
+     <None Include="Assets\Texto\Luiza\Dialogoluiza21eng.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala55eng.txt" />
+     <None Include="Assets\Texto\Parados\Boneco10\Dialogo27eng 2.txt" />
+     <None Include="Assets\Texto\Marcus\MarcusFala3.txt" />
+     <None Include="Assets\Texto\Augusto\Dialogo1eng.txt" />
+     <None Include="Assets\Texto\BarcoPirataEsfiha\FalaPedirPT.txt" />
+     <None Include="Assets\Texto\PrimeiraMissao\Funkeiro\FalaDepois1eng.txt" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Apple\Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="Editor">
+      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="AppleMacos">
+      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Apple\AppleMacos.dll</HintPath>
+    </Reference>
+    <Reference Include="winrt">
+      <HintPath>Assets\Plugins\UnityPurchasing\winrt\winrt.dll</HintPath>
+    </Reference>
+    <Reference Include="Security">
+      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Security\live\Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Stores">
+      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookStore">
+      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Facebook\FacebookStore.dll</HintPath>
+    </Reference>
+    <Reference Include="AppleCore">
+      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Apple\AppleCore.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.5\net35\unity-custom\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{EC8544DD-01A4-670C-6331-0B0A9852039D}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
+      <Project>{EDBBF199-E5F9-9CD5-2C73-FED302FC69BC}</Project>
+      <Name>Unity.2D.Tilemap.Extras</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
+      <Project>{21D828CE-69F9-A5EB-F34D-044FFE39F7AD}</Project>
+      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

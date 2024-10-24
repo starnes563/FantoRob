@@ -1,0 +1,26 @@
+Expectador Confuso:Ei...
+Expectador Confuso:Não to entendendo, consegue me explicar melhor como funcionam batalhas de FantoRob?
+Expectador Entendido:Uai? Você paga para assistir a final sem entender de batalha? Por quê?
+Expectador Confuso:Tava todo mundo falando nisso eu quis ver também!
+Expectador Entendido:Cada uma... Ok vamos lá serei bem breve.
+Expectador Entendido:Cada Fantorob tem duas barras de estado para prestar atenção.
+Expectador Entendido:A Primeira que temos que prestar atenção é a RES.
+Expectador Entendido:Quando ele começa a ser atacado essa barra começa a cair.
+Expectador Entendido:Quanto menor ela for menos o Fantorob resiste aos ataques.
+Expectador Confuso:E se la chegar em zero o FantoRob fica vulnerável?
+Expectador Entendido:EXATAMENTE. Nesse estado ele vai começar a regenerar a barra de resistência para o máximo de novo.
+Expectador Entendido:Porém enquanto ele regenera ele fica fraco e todo dano que recebe de ataques se direciona para a barra de INT.
+Expectador Entendido:Se a INT de um FantoRob chega a ZERO ele esta fora de combate.
+Expectador Entendido:Isso nos leva a TELA DE ATAQUE.
+Expectador Entendido:Os ataques pode ser de dois tipos elementais e não elementais.
+Expectador Entendido:O mestre que esta batalhando pode conferir isso no status ELEM.
+Expectador Entendido:Se ele indica "NÃO" significa que o ataque não é elemental.
+Expectador Entendido:Se ele indicar OUTRO VALOR significa que ele é elemental.
+Expectador Entendido:Ataques NÃO ELEMENTAIS danificam MAIS RES.
+Expectador Entendido:Ataques ELEMENTAIS danificam MAIS INT.
+Expectador Entendido:Então o fluxo mais comum de um  combate é
+Expectador Entendido:Primeiro os Mestres tentam diminuir a RES deles para negativo.
+Expectador Entendido:Fazem isso atacando com ataques NÃO ELEMENTAIS.
+Expectador Entendido:Depois ele descarregam ataques ELEMENTAIS para zerar a INT e derrotar o RIVAL.
+Expectador Confuso:Aaah, agora eu acho que entendi.
+Expectador Entendido:Se entendeu bate palma se não entendeu paciencia.

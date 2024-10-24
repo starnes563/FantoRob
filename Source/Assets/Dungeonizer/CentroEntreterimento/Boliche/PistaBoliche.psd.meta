@@ -1,0 +1,1290 @@
+fileFormatVersion: 2
+guid: e2b3e6260cb79dc4ea51e559c07e6f1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5840109279387953509
+    second: parede_0
+  - first:
+      213: 9021845903506024331
+    second: parede_1
+  - first:
+      213: -4385516411564644858
+    second: parede_2
+  - first:
+      213: -3288932093813113464
+    second: parede_3
+  - first:
+      213: -1379515675615884502
+    second: parede_4
+  - first:
+      213: -6056152955311280855
+    second: parede_5
+  - first:
+      213: -1515959816516631016
+    second: parede_6
+  - first:
+      213: -4421047060056373153
+    second: parede_7
+  - first:
+      213: -2730253422920973598
+    second: parede_8
+  - first:
+      213: -6297930327268552276
+    second: parede_9
+  - first:
+      213: -7517410756332464009
+    second: parede_10
+  - first:
+      213: -1089559268177929533
+    second: parede_11
+  - first:
+      213: 3431032163597612932
+    second: parede_12
+  - first:
+      213: 4949099482643460929
+    second: parede_13
+  - first:
+      213: 2531828757635520855
+    second: parede_14
+  - first:
+      213: 7040364773035428980
+    second: parede_15
+  - first:
+      213: -627973638456743176
+    second: parede_16
+  - first:
+      213: -5138117904725966702
+    second: parede_17
+  - first:
+      213: 1048488139643045809
+    second: parede_18
+  - first:
+      213: -5176704847159476844
+    second: parede_19
+  - first:
+      213: -1971881854908446185
+    second: parede_20
+  - first:
+      213: 5836596875200894231
+    second: parede_21
+  - first:
+      213: -1189152445880954764
+    second: parede_22
+  - first:
+      213: -3983333829769384179
+    second: parede_23
+  - first:
+      213: -5663017733034773448
+    second: parede_24
+  - first:
+      213: -6941390711113514626
+    second: parede_25
+  - first:
+      213: -5626945534717913294
+    second: parede_26
+  - first:
+      213: 5426586215460797402
+    second: parede_27
+  - first:
+      213: -2645785703420913864
+    second: parede_28
+  - first:
+      213: -3719028969387046376
+    second: parede_29
+  - first:
+      213: -6197416111032390607
+    second: parede_30
+  - first:
+      213: 7291911386088175815
+    second: parede_31
+  - first:
+      213: -7863727305692734479
+    second: parede_32
+  - first:
+      213: 4455384605795440836
+    second: parede_33
+  - first:
+      213: -5121032507985641991
+    second: TelaECarpete_0
+  - first:
+      213: 2280444927759790158
+    second: TelaECarpete_1
+  - first:
+      213: 6934129850411227656
+    second: TelaECarpete_2
+  - first:
+      213: -3000528379081157226
+    second: TelaECarpete_3
+  - first:
+      213: -6100881752186336405
+    second: TelaECarpete_4
+  - first:
+      213: 1846991084147804116
+    second: TelaECarpete_5
+  - first:
+      213: 1487340326182183570
+    second: TelaECarpete_6
+  - first:
+      213: -1750579166955300124
+    second: TelaECarpete_7
+  - first:
+      213: 4144725792035318628
+    second: TelaECarpete_8
+  - first:
+      213: 397220933064255024
+    second: TelaECarpete_9
+  - first:
+      213: 6866063508915250490
+    second: TelaECarpete_10
+  - first:
+      213: 7798839090155995515
+    second: TelaECarpete_11
+  - first:
+      213: -700719061086498862
+    second: TelaECarpete_12
+  - first:
+      213: -306733103348662378
+    second: TelaECarpete_13
+  - first:
+      213: 4931016298354229010
+    second: TelaECarpete_14
+  - first:
+      213: 2721063078890619841
+    second: TelaECarpete_15
+  - first:
+      213: -3454910781875910462
+    second: TelaECarpete_16
+  - first:
+      213: 1839380479977954540
+    second: TelaECarpete_17
+  - first:
+      213: 214345120515909196
+    second: TelaECarpete_18
+  - first:
+      213: 7802068874631423840
+    second: TelaECarpete_19
+  - first:
+      213: -9123522055916785028
+    second: TelaECarpete_20
+  - first:
+      213: 6693310443338526902
+    second: TelaECarpete_21
+  - first:
+      213: -5200494558347121082
+    second: TelaECarpete_22
+  - first:
+      213: -5539083102309419873
+    second: TelaECarpete_23
+  - first:
+      213: 6006022354777420601
+    second: TelaECarpete_24
+  - first:
+      213: -4032920943725504065
+    second: TelaECarpete_25
+  - first:
+      213: 7347236624998980858
+    second: TelaECarpete_26
+  - first:
+      213: -8898789702635563468
+    second: TelaECarpete_27
+  - first:
+      213: -4030671308452814060
+    second: PistaBoliche_0
+  - first:
+      213: -1403449135256824565
+    second: PistaBoliche_1
+  - first:
+      213: 5015294350509735041
+    second: PistaBoliche_2
+  - first:
+      213: -4490410813216318793
+    second: PistaBoliche_3
+  - first:
+      213: -5323408375207918103
+    second: PistaBoliche_4
+  - first:
+      213: 7215956293091283150
+    second: PistaBoliche_5
+  - first:
+      213: 6216424476342667941
+    second: PistaBoliche_6
+  - first:
+      213: -3421698364824767062
+    second: PistaBoliche_7
+  - first:
+      213: -5183192605892391945
+    second: PistaBoliche_8
+  - first:
+      213: 7817546472276653395
+    second: PistaBoliche_9
+  - first:
+      213: 5570292444062608619
+    second: PistaBoliche_10
+  - first:
+      213: -7527906477407530213
+    second: PistaBoliche_11
+  - first:
+      213: 5185836767411468306
+    second: PistaBoliche_12
+  - first:
+      213: -1790668638854227162
+    second: PistaBoliche_13
+  - first:
+      213: 2598024471854384017
+    second: PistaBoliche_14
+  - first:
+      213: -3916309478497927741
+    second: PistaBoliche_15
+  - first:
+      213: -6569185679752785470
+    second: PistaBoliche_16
+  - first:
+      213: -673258649765431074
+    second: PistaBoliche_17
+  - first:
+      213: -7597620091212469049
+    second: PistaBoliche_18
+  - first:
+      213: 6457404715789206665
+    second: PistaBoliche_19
+  - first:
+      213: -3081685343270607709
+    second: PistaBoliche_20
+  - first:
+      213: -6124312024618955017
+    second: PistaBoliche_21
+  - first:
+      213: -2699844542523454828
+    second: PistaBoliche_22
+  - first:
+      213: 8570805910957722978
+    second: PistaBoliche_23
+  - first:
+      213: 8235611693883911373
+    second: PistaBoliche_24
+  - first:
+      213: 3331925682671351405
+    second: PistaBoliche_25
+  - first:
+      213: 1061538050983105061
+    second: PistaBoliche_26
+  - first:
+      213: -8918383689039589066
+    second: PistaBoliche_27
+  - first:
+      213: -5731110388807115880
+    second: PistaBoliche_28
+  - first:
+      213: 1451927746116643411
+    second: PistaBoliche_29
+  - first:
+      213: -2079314250318275087
+    second: PistaBoliche_30
+  - first:
+      213: -4194171373358081236
+    second: PistaBoliche_31
+  - first:
+      213: 8775875129989498917
+    second: PistaBoliche_32
+  - first:
+      213: 1481335896864169816
+    second: PistaBoliche_33
+  - first:
+      213: -695938549695654725
+    second: PistaBoliche_34
+  - first:
+      213: 8077283468357380914
+    second: PistaBoliche_35
+  - first:
+      213: -5963744890392567318
+    second: PistaBoliche_36
+  - first:
+      213: 2810965508573726175
+    second: PistaBoliche_37
+  - first:
+      213: -7513439216111931997
+    second: PistaBoliche_38
+  - first:
+      213: -7908928392073737667
+    second: PistaBoliche_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PistaBoliche_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413af45eccd2018c0800000000000000
+      internalID: -4030671308452814060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0510b08272f58ce0800000000000000
+      internalID: -1403449135256824565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cf72eb3a7e99540800000000000000
+      internalID: 5015294350509735041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba1ba6182bdea1c0800000000000000
+      internalID: -4490410813216318793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5846199447f16b0800000000000000
+      internalID: -5323408375207918103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0537c440a342460800000000000000
+      internalID: 7215956293091283150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aac27d002d254650800000000000000
+      internalID: 6216424476342667941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5b514577fa380d0800000000000000
+      internalID: -3421698364824767062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb4a5369c99118b0800000000000000
+      internalID: -5183192605892391945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355782fe8118d7c60800000000000000
+      internalID: 7817546472276653395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bece4671777ad4d40800000000000000
+      internalID: 5570292444062608619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1313cf71f0878790800000000000000
+      internalID: -7527906477407530213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21878b0701bc7f740800000000000000
+      internalID: 5185836767411468306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b59ae3c544627e0800000000000000
+      internalID: -1790668638854227162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19307a20e790e0420800000000000000
+      internalID: 2598024471854384017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdb2af574976a9c0800000000000000
+      internalID: -3916309478497927741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c190c6ed6095d4a0800000000000000
+      internalID: -6569185679752785470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8b5ca33da18a6f0800000000000000
+      internalID: -673258649765431074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cce8ece7c4df8690800000000000000
+      internalID: -7597620091212469049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9844c8f406f4d9950800000000000000
+      internalID: 6457404715789206665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4e3dcf187ab35d0800000000000000
+      internalID: -3081685343270607709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe0fee59a2120ba0800000000000000
+      internalID: -6124312024618955017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49acc1661b9388ad0800000000000000
+      internalID: -2699844542523454828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d0471e09e91f670800000000000000
+      internalID: 8570805910957722978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcce0029335ca4270800000000000000
+      internalID: 8235611693883911373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6670ad41c06d3e20800000000000000
+      internalID: 3331925682671351405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522986cab375bbe00800000000000000
+      internalID: 1061538050983105061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631582459498b3480800000000000000
+      internalID: -8918383689039589066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bd99257710770b0800000000000000
+      internalID: -5731110388807115880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ae0daa798462410800000000000000
+      internalID: 1451927746116643411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd1f5db4bac423e0800000000000000
+      internalID: -2079314250318275087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b11eb8b5f4bc5c0800000000000000
+      internalID: -4194171373358081236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52885342feb2ac970800000000000000
+      internalID: 8775875129989498917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f9f955623ce8410800000000000000
+      internalID: 1481335896864169816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4d3e783978756f0800000000000000
+      internalID: -695938549695654725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ba399e486481070800000000000000
+      internalID: 8077283468357380914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1a9159e958c3da0800000000000000
+      internalID: -5963744890392567318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd58966ac3e820720800000000000000
+      internalID: 2810965508573726175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ada82247d6eab790800000000000000
+      internalID: -7513439216111931997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistaBoliche_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a817cd787dd3290800000000000000
+      internalID: -7908928392073737667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 1
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

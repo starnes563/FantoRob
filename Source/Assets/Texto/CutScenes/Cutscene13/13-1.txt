@@ -1,0 +1,94 @@
+Narrador: ESTEJAM PREPARADOS. 
+Narrador: O MAIOR CAMPEONATO DO MUNDO ESTA PARA COMEÇAR EM
+Narrador: 5
+Narrador: 4
+Narrador: 3
+Narrador: 2 ... 1
+???: QUEM AQUI ESTA PRONTO?
+???: Eu sou o FantoAjudante, e irei acompanhar vocês por todo compeonato!
+Fantoajudante: QUEM AQUI ESTA EMPOLGADO!?
+Fantoajudante: Sem mais delongas, apresentando agora...
+Fantoajudante: Os participantes desse ano!
+???:Senhor Mantelonni, senhor Santos Silva, senhora Catarina, devo dizer que é uma grande honra ter os senhores na abertura do campeonato esse ano!
+Matelonni: A honra é nossa, é um prazer finalmente conhecer pessoalmente Juliano Arbô, o gênio da robotica e criador dos FantoRobs!
+Juliano Arbô: O prazer é todo meu, e eu fiquei em segundo lugar esse ano ahahaha!
+Carmém: Obrigada pelos excelentes lugares, devo dizer que estou me divertindo muito
+Juliano Arbô: Bom vocês são nossos maiores apostadores.. err clientes esse é o mínimo que podeira fazer, gostaria que outros pudessem nos prestigiar também!
+Mantelonni: Falando em clientes, como está indo os negócios?
+Juliano Arbô: Temos alguns desafio na frente, temos tido requipes de inflação e quase certo que o Bacen irá aumentar a taxa de juros
+Santos Silva: Nossa isso afetaria especialmente vocês que dependem muito de venture capital, tem algum plano?
+Juliano Arbô: Não é certeza que seremos tão afetados, mas de qualquer forma a empresa está bem madura, com o sucesso do campeonato desse ano...
+Juliano Arbô: O sucesso do FantoBet e mais uma rodada de capitalização prentendemos construir um colchão de liquidez.
+Santos Silva: Que ótimo, além de um gênio da robotica vejo que é um grande homem de negócios, esse é um plano muito sólido! O FantoBet tem ido bem?
+Juliano Arbô: Agradeço a gentileza, o FantoBet tem sido um sucesso acima do esperado, só esse ano já temos mais de 300 mil inscritos.
+Juliano Arbô: Claro que os 10 maiores apostadores, dos quais os senhores fazem parte, ainda movimentam 27% dos valores.
+Juliano Arbô: Porém acredito que com o sucesso desse ano, conseguiremos arrecadação recorde.
+Mantelonni: Excelente, acreditamos que dará tudo certo!
+Juliano Arbô: Bom eu infelizmente eu preciso ir, esse ano teremos uma batalha de abertura, logo após será meu discurso.
+Carmém: Ah é? E quem irá batalhar?
+Juliano Arbô: Ora será o Campeão dos ultimos três anos o Preá, e algum participante desse ano que será sorteado.
+Carmém: Nossa que oportunidade maravilhosa! Veremos o famoso Preá batalhando ao vivo!
+Juliano Arbô: Sim! Por isso os convidei! Bom eu realmente preciso ir.
+Mantelonni: Vai lá e bom discurso!
+Fantoajudante: Agora é um momento muito especial! Teremos uma grande surpresa na abertura desse ano!
+Fantoajudante: Mas primeiro, entrando pela direita do Campo de Batalha, o 3 vezes campeão mundial! O Único e inigualável, o imbatível PREÁ!
+Fantoajudante: Preá o que conselho você teria para os nossos participantes desse ano?
+Preá: Primeiro gostaria de dizer que independente de resultados obtidos, todos os participantes já são vencedores por estarem aqui!
+Preá: Segundo lugar apesar de eu ser o campeão dos anos anteriores, cada campeonato tem sua história a ser contada!
+Preá: Por isso não desanimem, se esforcem, todos tem chances, se eu consegui vocês também conseguem!
+Fantoajudante: Que isso! Que discurso lindo! Eu atém me emocinei, que ser humano lindo você é Preá!
+Fantoajudante: Bom agora ta na hora da nossa surpresa!
+Fantoajudante: Um dos participantes será sorteado para batalhar contra o Preá agora em uma batalha amistosa!
+Fantoajudante: E o sorteado é...
+Fantoajudante: Diego Brandão!
+Neftari: Quem?
+Assistente: Por favor se dirija a plataforma de batalha.
+Assistente: Ei Boa Sorte!
+Fantoajudante: Diego Brandão você ja participou antes do campeonato?
+Neftari: Eu não esse é meu primeiro ano, mas esse não é meu nome...
+Fantoajudante: Um calouro, mas que sorte! Ou que azar? Ser sorteado para batalhar com o Preá!
+Fantoajudante: Sem mais demoras por que o publico esta ansioso.
+Fantoajudante: Lutem!
+Fantoajudante: MAS QUE BATALHA SURPREENDENTE!
+Fantoajudante: Diego Brandão em seu primeiro campeonato não só batalha mas derrota o campeão invicto de 3 anos PREÁ!
+Preá: Grrrrrrrr
+Fantoajudante: O que você tem a dizer Preá?
+Preá: Eu? Bem, er bem, muito bom! É isso aí, só não vai ficar se achando o campeonato as coisas são sérias!
+João: Ele sempre chamando a atenção.
+Fantoajudante: Isso mesmo, lembrando que foi uma batalha amistosa em gente! Bom agora batam palmas e gritem porque agora vem aí o CEO da FantoRob Company
+Fantoajudante: Gênio da robótica e criador dos FantoRobs JULIANO ARBÔ!
+Juliano: Muito obrigado! Muitissimo obrigado
+Juliano: Bom dia todos, consigo ver que estão todos muito animados!
+Juliano: Para mim é uma honra e uma alegria está aqui incubido de abrir mais um campeonato de verão!
+Juliano: Todo ano é uma correria, a gente sempre quer subir a barra, a gente sempre quer se superar e realizar um campeoanto melhor que o anterior.
+Juliano: Posso dizer que nosso esforço tem se pagado, nos já somos a maior audiência e o assunto mais comentado na internet durante todo o verão no Brasil!
+Carmém: Hunf, isso é preocupante!
+Santos Silva: Foi por isso que você insistiu para nós virmos aqui?
+Carmém: Sim insisti, tem algo muito errado acontecendo no campeoanato desse ano, eu acho que...
+Carmém: AAAAAAAAAAAAAAAAAAAAAAAAAH!
+Santos Silva: O que você esta fazendo aqui?
+Pessoa de Máscara Vermelha: Eu pergunto o mesmo, o que vocês estão fazendo aqui?
+Mantelonni: O que você ta tentando nos provar aparecendo aqui com essa roupa?
+Pessoa de Máscara Vermelha: Acharam que eu não ia perceber que vocês tentaram bisbilhotar nas minhas coisas?
+Carmém: Nós não tentamos esconder nada! Tem algo errado no campeonato desse ano, essa batalha surpresa essas duas incrições de ultima hora.
+Pessoa de Máscara Vermelha: Vocês acham que isso é motivo o suficiente para duvidarem de mim?
+Santos Silva: Claro que é! Nós não podemos confiar cegamente em vocês assim, não com esse tanto de dinheiro envolvido!
+Pessoa de Máscara Vermelha: Vocês confiavam antes, não vejo motivo para mudar agora.
+Mantelonni: Não vê motivos? O Preá acaba de se derrotado na frente de todo mundo!
+Pessoa de Máscara Vermelha: Apenas um pequeno contratempo.
+Carmém: Contratempo? Nós não temos espaço para contratempos! Tem muito dinheiro envolvido nisso, o Preá PRECISA SER O CAMPEÃO NOVAMENTE!
+Pessoa de Máscara Vermelha: Você gritando desse jeito imagino que gostaria que fosse divulgado para todos! Publica no Jornal então!
+Carmém: Tsc... Eu já disse ... essas batalhas essas inscrições de ultima hora, que garantia a gente tem que você tem tudo sob controle?
+Pessoa de Máscara Vermelha: Vocês terem vindo aqui e bisbilhotado ameaçou nosso acordo muito mais que duas inscrições de ultima hora, eu tive que calar várias bocas.
+Santos Silva: ...
+Pessoa de Máscara Vermelha: Na primeira oportunidade que tiverem vão embora e não perguntem de mais nada!
+Pessoa de Máscara Vermelha: Vocês me perguntaram o que eu estou tentando provar aparecendo com essa roupa?
+Pessoa de Máscara Vermelha: Se eu consigo vir até aqui assim, é por que eu tenha toda FantoRob Company sob meu controle!
+Juliano: Gostaria de finalizar apenas, desejando um grande campeonato a todos e que o melhor leve...
+Juliano: A FantoTaça!
+Oswaldo: É isso aí garoto chegou com tudo! Já derrotou o Preá logo de cara?
+Neftari: Foi só uma batalha amistosa, acho que ele nem preparou os FantoRobs dele antes.
+Oswaldo: De qualquer forma você ja começou chamando a atenção de todo mundo! Agora você ta com um alvo nas costas né HAHAAHHAAHAH!
+Neftari: Agora o senhor me assustou!
+Oswaldo: Pois trate de se sair bem! Vamos lá as coisas já terminaram por aqui.
+Oswaldo: O primeiro desafio já está aberto, é nos ESCRITÓRIOS no CENTRO DA CIDADE.

@@ -1,0 +1,94 @@
+Narrator: BE PREPARED.
+Narrator: THE GREATEST CHAMPIONSHIP IN THE WORLD IS ABOUT TO BEGIN IN
+Narrator: 5
+Narrator: 4
+Narrator: 3
+Narrator: 2 ... 1
+???: WHO HERE IS READY?
+???: I am the FantoHelper, and I will accompany you throughout the entire championship!
+FantoHelper: WHO HERE IS EXCITED!?
+FantoHelper: Without further ado, presenting now...
+FantoHelper: This year's participants!
+???: Mr. Mantelonni, Mr. Santos Silva, Ms. Catarina, I must say it's a great honor to have you at this year's championship opening!
+Mantelonni: The honor is ours, it's a pleasure to finally meet Juliano Arbô, the robotics genius and creator of the FantoRobs, in person!
+Juliano Arbô: The pleasure is all mine, and I came in second this year, hahaha!
+Carmem: Thank you for the excellent seats, I must say I'm having a lot of fun.
+Juliano Arbô: Well, you are our biggest bettors... err, clients, this is the least I could do. I wish others could join us too!
+Mantelonni: Speaking of clients, how are things going business-wise?
+Juliano Arbô: We have some challenges ahead, we've been seeing signs of inflation and it's almost certain that the Central Bank will raise interest rates.
+Santos Silva: Wow, that would especially affect you guys since you rely heavily on venture capital. Do you have a plan?
+Juliano Arbô: It’s not certain we'll be hit that hard, but either way, the company is quite mature, and with this year's championship success...
+Juliano Arbô: The success of FantoBet and another round of fundraising, we intend to build a liquidity cushion.
+Santos Silva: Great! In addition to being a robotics genius, I see you're also a savvy businessman. That's a solid plan! Is FantoBet doing well?
+Juliano Arbô: Thank you for the kind words. FantoBet has been more successful than expected, with over 300,000 subscribers this year alone.
+Juliano Arbô: Of course, the top 10 bettors, of whom you are part, still account for 27% of the amounts.
+Juliano Arbô: But I believe with this year's success, we'll see record revenue.
+Mantelonni: Excellent, we believe everything will go well!
+Juliano Arbô: Well, I unfortunately need to go. This year, we’ll have an opening battle, followed by my speech.
+Carmem: Oh? Who will be battling?
+Juliano Arbô: It will be the three-time champion Preá, and a participant from this year, randomly selected.
+Carmem: What a wonderful opportunity! We’ll see the famous Preá battle live!
+Juliano Arbô: Yes! That’s why I invited you! Well, I really must go now.
+Mantelonni: Go ahead and good luck with your speech!
+FantoHelper: Now, it’s a very special moment! We have a big surprise for the opening this year!
+FantoHelper: But first, entering from the right side of the Battle Arena, the three-time world champion! The one and only, the unbeatable PREÁ!
+FantoHelper: Preá, what advice would you give to this year’s participants?
+Preá: First, I’d like to say that regardless of the results, all participants are already winners for being here!
+Preá: Second, despite being the champion of previous years, each championship has its own story to be told!
+Preá: So don’t get discouraged, give it your all, everyone has a chance, if I did it, so can you!
+FantoHelper: Wow! What a beautiful speech! I’m even getting emotional, what a wonderful person you are, Preá!
+FantoHelper: Well, now it’s time for our surprise!
+FantoHelper: One of the participants will be selected to battle Preá now in a friendly match!
+FantoHelper: And the chosen one is...
+FantoHelper: Diego Brandão!
+Neftari: Who?
+Assistant: Please proceed to the battle platform.
+Assistant: Hey, good luck!
+FantoHelper: Diego Brandão, have you participated in the championship before?
+Neftari: No, this is my first year, but that’s not my name...
+FantoHelper: A rookie, but what luck! Or misfortune? Being selected to battle Preá!
+FantoHelper: No more delays, the audience is eager.
+FantoHelper: Fight!
+FantoHelper: WHAT A SURPRISING BATTLE!
+FantoHelper: Diego Brandão, in his first championship, not only battles but defeats the undefeated three-time champion PREÁ!
+Preá: Grrrrrrr
+FantoHelper: What do you have to say, Preá?
+Preá: Me? Well, uh, very good! That’s it, just don’t get cocky, the championship is serious!
+João: He's always grabbing attention.
+FantoHelper: That’s right, remember, it was a friendly match, folks! Now give a big round of applause because here comes the CEO of FantoRob Company,
+FantoHelper: Robotics genius and creator of the FantoRobs, JULIANO ARBÔ!
+Juliano: Thank you so much! Thank you!
+Juliano: Good morning everyone, I can see you're all very excited!
+Juliano: It is an honor and a joy for me to be here tasked with opening another summer championship!
+Juliano: Every year it’s a race, we always want to raise the bar, we always want to outdo ourselves and make a better championship than the last.
+Juliano: I can say our efforts have paid off; we are now the top broadcast and the most talked-about topic on the internet all summer in Brazil!
+Carmem: Hmph, that’s concerning!
+Santos Silva: Is that why you insisted we come here?
+Carmem: Yes, I insisted. Something is very wrong with this year’s championship, I think...
+Carmem: AAAAAAH!
+Santos Silva: What are you doing here?
+Red Masked Person: I ask the same, what are you doing here?
+Mantelonni: What are you trying to prove by showing up in that outfit?
+Red Masked Person: Did you think I wouldn’t notice you snooping around in my business?
+Carmem: We didn’t try to hide anything! Something is wrong with this year’s championship, that surprise battle, those two last-minute registrations...
+Red Masked Person: Do you think that’s enough reason to doubt me?
+Santos Silva: Of course it is! We can't trust you blindly, not with this much money involved!
+Red Masked Person: You trusted me before, I don’t see any reason to change now.
+Mantelonni: Don’t see any reason? Preá just got defeated in front of everyone!
+Red Masked Person: Just a minor setback.
+Carmem: Setback? We have no room for setbacks! There’s too much money involved, Preá NEEDS TO BE THE CHAMPION AGAIN!
+Red Masked Person: You’re shouting like you want it broadcast to everyone! Publish it in the newspaper then!
+Carmem: Tsk... I’ve already said it... these battles, these last-minute registrations, what guarantee do we have that you’ve got everything under control?
+Red Masked Person: Your snooping around has threatened our deal much more than two last-minute registrations. I’ve had to silence several mouths.
+Santos Silva: ...
+Red Masked Person: The first chance you get, leave and don’t ask any more questions!
+Red Masked Person: You asked what I was trying to prove by showing up in this outfit?
+Red Masked Person: If I can come here like this, it's because I have the entire FantoRob Company under my control!
+Juliano: I’d just like to conclude by wishing everyone a great championship and may the best one win...
+Juliano: The FantoCup!
+Oswaldo: Way to go, kid! You defeated Preá right off the bat?
+Neftari: It was just a friendly match, I don’t think he even prepared his FantoRobs beforehand.
+Oswaldo: Either way, you’ve already caught everyone’s attention! Now you’ve got a target on your back, HAHAAHHAAHAH!
+Neftari: Now you’re scaring me!
+Oswaldo: You’d better do well! Come on, things are wrapped up here.
+Oswaldo: The first challenge is already open, it’s at the OFFICES in the CITY CENTER.

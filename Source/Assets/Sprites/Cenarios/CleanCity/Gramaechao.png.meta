@@ -1,0 +1,1306 @@
+fileFormatVersion: 2
+guid: 7d82de1b67dd04740881456ed4b07b6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8183627154288658049
+    second: Gramaechao_0
+  - first:
+      213: -7104391896972054143
+    second: Gramaechao_1
+  - first:
+      213: -51260394365318176
+    second: Gramaechao_2
+  - first:
+      213: 5998406325578601581
+    second: Gramaechao_3
+  - first:
+      213: 4923334491382047314
+    second: Gramaechao_4
+  - first:
+      213: -2541471659266333778
+    second: Gramaechao_5
+  - first:
+      213: 2665536420503987879
+    second: Gramaechao_6
+  - first:
+      213: 6904486143082794261
+    second: Gramaechao_7
+  - first:
+      213: 1840810844606519174
+    second: Gramaechao_8
+  - first:
+      213: 6805070150563480946
+    second: Gramaechao_9
+  - first:
+      213: -6469102633636118041
+    second: Gramaechao_10
+  - first:
+      213: -5054025596301563890
+    second: Gramaechao_11
+  - first:
+      213: 5069538027041194957
+    second: Gramaechao_12
+  - first:
+      213: -3847458392614603205
+    second: Gramaechao_13
+  - first:
+      213: 6294463156499397287
+    second: Gramaechao_14
+  - first:
+      213: -6932697427847731154
+    second: Gramaechao_15
+  - first:
+      213: 7253702097313196481
+    second: Gramaechao_16
+  - first:
+      213: 4396245445465959276
+    second: Gramaechao_17
+  - first:
+      213: 6080681280976463996
+    second: Gramaechao_18
+  - first:
+      213: 1697094482567853836
+    second: Gramaechao_19
+  - first:
+      213: -6326313828739330193
+    second: Gramaechao_20
+  - first:
+      213: -8934761999112895048
+    second: Gramaechao_21
+  - first:
+      213: 5753241396873386508
+    second: Gramaechao_22
+  - first:
+      213: -1379363428694532560
+    second: Gramaechao_23
+  - first:
+      213: -70702592079644876
+    second: Gramaechao_24
+  - first:
+      213: 8343110419765943664
+    second: Gramaechao_25
+  - first:
+      213: -2709696686805475617
+    second: Gramaechao_26
+  - first:
+      213: -8324484010666647370
+    second: Gramaechao_27
+  - first:
+      213: -4449646956541819441
+    second: Gramaechao_28
+  - first:
+      213: 1808241468495596977
+    second: Gramaechao_29
+  - first:
+      213: 5706996585565330300
+    second: Gramaechao_30
+  - first:
+      213: -6165377455567376479
+    second: Gramaechao_31
+  - first:
+      213: 7711121310582584355
+    second: Gramaechao_32
+  - first:
+      213: 4232820002014801035
+    second: Gramaechao_33
+  - first:
+      213: -8428959779134814203
+    second: Gramaechao_34
+  - first:
+      213: 8729651737488613587
+    second: Gramaechao_35
+  - first:
+      213: -4656601437053191523
+    second: Gramaechao_36
+  - first:
+      213: 2113537987349785544
+    second: Gramaechao_37
+  - first:
+      213: 3867928730896083289
+    second: Gramaechao_38
+  - first:
+      213: 4769553325608806384
+    second: Gramaechao_39
+  - first:
+      213: 6369995630431268609
+    second: Gramaechao_40
+  - first:
+      213: 6808954678302699440
+    second: Gramaechao_41
+  - first:
+      213: -5393692146205316050
+    second: Gramaechao_42
+  - first:
+      213: 6765134282861727328
+    second: Gramaechao_43
+  - first:
+      213: -2749348883687111266
+    second: Gramaechao_44
+  - first:
+      213: 5298232569476575840
+    second: Gramaechao_45
+  - first:
+      213: -94464502841321569
+    second: Gramaechao_46
+  - first:
+      213: 6179070880432614743
+    second: Gramaechao_47
+  - first:
+      213: 6655714396683077575
+    second: Gramaechao_48
+  - first:
+      213: -3354154760126842507
+    second: Gramaechao_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 153
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 1
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gramaechao_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1197
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79326e367aed6e80800000000000000
+      internalID: -8183627154288658049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1197
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18131dbd531286d90800000000000000
+      internalID: -7104391896972054143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_2
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1197
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb0fc261f2e94ff0800000000000000
+      internalID: -51260394365318176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_3
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1197
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64919ea5ce9e3350800000000000000
+      internalID: 5998406325578601581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_4
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1197
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252614d82a2335440800000000000000
+      internalID: 4923334491382047314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_5
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 857
+        width: 171
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea325bebdf0eabcd0800000000000000
+      internalID: -2541471659266333778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1027
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6a1087043edf420800000000000000
+      internalID: 2665536420503987879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1027
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d8e0bc099a1df50800000000000000
+      internalID: 6904486143082794261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1027
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687557bc5bfdb8910800000000000000
+      internalID: 1840810844606519174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_9
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1027
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27543f34f37707e50800000000000000
+      internalID: 6805070150563480946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_10
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1027
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e14392fd612936a0800000000000000
+      internalID: -6469102633636118041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1027
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08a6be5f7e7cd9b0800000000000000
+      internalID: -5054025596301563890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 857
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3002dd9fd9a5640800000000000000
+      internalID: 5069538027041194957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 857
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b367c140af41b9ac0800000000000000
+      internalID: -3847458392614603205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_14
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 857
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa3eee24ec6a5750800000000000000
+      internalID: 6294463156499397287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_15
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 857
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e282fdd9b6c1acf90800000000000000
+      internalID: -6932697427847731154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_16
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 857
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9ebd030a35aa460800000000000000
+      internalID: 7253702097313196481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_17
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 857
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b6d6ab0f9920d30800000000000000
+      internalID: 4396245445465959276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 687
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7828f0886be26450800000000000000
+      internalID: 6080681280976463996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 687
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c077bb7b07a4d8710800000000000000
+      internalID: 1697094482567853836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_20
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 687
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fc95c471b6438a0800000000000000
+      internalID: -6326313828739330193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_21
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 687
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5873adc49510480800000000000000
+      internalID: -8934761999112895048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_22
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 687
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ad5b7819e97df40800000000000000
+      internalID: 5753241396873386508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_23
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 687
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e5f7015448bdce0800000000000000
+      internalID: -1379363428694532560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_24
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 687
+        width: 171
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437b46afd50d40ff0800000000000000
+      internalID: -70702592079644876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 517
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d520c19bea8c370800000000000000
+      internalID: 8343110419765943664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 517
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde18ed4839356ad0800000000000000
+      internalID: -2709696686805475617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_27
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 517
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0abc5b5ed797c80800000000000000
+      internalID: -8324484010666647370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_28
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 517
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc54d631badaf32c0800000000000000
+      internalID: -4449646956541819441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_29
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 517
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd8fcdf80a281910800000000000000
+      internalID: 1808241468495596977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_30
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 517
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b1df85823533f40800000000000000
+      internalID: 5706996585565330300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_31
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 517
+        width: 171
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af64b6aedd207aa0800000000000000
+      internalID: -6165377455567376479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 347
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32438390af7630b60800000000000000
+      internalID: 7711121310582584355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_33
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 347
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ca24a8d5ffdba30800000000000000
+      internalID: 4232820002014801035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_34
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 347
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5084d9a4db1560b80800000000000000
+      internalID: -8428959779134814203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_35
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 347
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d061e9e004f52970800000000000000
+      internalID: 8729651737488613587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_36
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 347
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9afedb2aad606fb0800000000000000
+      internalID: -4656601437053191523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_37
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 347
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb274bf99bc45d10800000000000000
+      internalID: 2113537987349785544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_38
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 347
+        width: 171
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959a69500b4ada530800000000000000
+      internalID: 3867928730896083289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_39
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 177
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7223eba7bd03240800000000000000
+      internalID: 4769553325608806384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_40
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 177
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f65a4b645c66850800000000000000
+      internalID: 6369995630431268609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_41
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 177
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf67fb54344e7e50800000000000000
+      internalID: 6808954678302699440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_42
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 177
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c2e9de191c525b0800000000000000
+      internalID: -5393692146205316050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_43
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 177
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e4acb79c592ed50800000000000000
+      internalID: 6765134282861727328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_44
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 177
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e958638c1c958d9d0800000000000000
+      internalID: -2749348883687111266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_45
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 177
+        width: 171
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0627e01637a178940800000000000000
+      internalID: 5298232569476575840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_46
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 7
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f975240090560bef0800000000000000
+      internalID: -94464502841321569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_47
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 7
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d65264a3870c550800000000000000
+      internalID: 6179070880432614743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_48
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 7
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c78fb4faf8dd5c50800000000000000
+      internalID: 6655714396683077575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramaechao_49
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 7
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57934f84406a371d0800000000000000
+      internalID: -3354154760126842507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

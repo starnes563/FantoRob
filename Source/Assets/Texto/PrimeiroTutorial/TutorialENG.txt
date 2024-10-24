@@ -1,0 +1,26 @@
+Confused Spectator: Hey...
+Confused Spectator: I'm not getting it, can you explain how FantoRob battles work in more detail?
+Knowledgeable Spectator: Well, why did you pay to watch the finals without understanding the battles? Why?
+Confused Spectator: Everyone was talking about it, so I wanted to see too!
+Knowledgeable Spectator: Well, alright, let me explain it briefly.
+Knowledgeable Spectator: Each FantoRob has two status bars to pay attention to.
+Knowledgeable Spectator: The first one to watch is RES.
+Knowledgeable Spectator: When it starts getting attacked, this bar starts to decrease.
+Knowledgeable Spectator: The lower it goes, the less the FantoRob can resist attacks.
+Confused Spectator: And if it reaches zero, is the FantoRob vulnerable?
+Knowledgeable Spectator: EXACTLY. In this state, it will start regenerating the resistance bar back to its maximum.
+Knowledgeable Spectator: However, while it's regenerating, it becomes weak, and all damage it receives from attacks goes to the INT bar.
+Knowledgeable Spectator: If a FantoRob's INT reaches ZERO, it's out of the fight.
+Knowledgeable Spectator: This brings us to the ATTACK SCREEN.
+Knowledgeable Spectator: Attacks can be of two types: elemental and non-elemental.
+Knowledgeable Spectator: The battling master can check this in the ELEM status.
+Knowledgeable Spectator: If it says "NO," it means the attack is non-elemental.
+Knowledgeable Spectator: If it indicates ANOTHER VALUE, it means it's elemental.
+Knowledgeable Spectator: Non-elemental attacks damage RES more.
+Knowledgeable Spectator: Elemental attacks damage INT more.
+Knowledgeable Spectator: So, the most common flow of a battle is:
+Knowledgeable Spectator: First, the masters try to reduce their opponent's RES to negative values.
+Knowledgeable Spectator: They do this by attacking with non-elemental attacks.
+Knowledgeable Spectator: Then, they unleash elemental attacks to reduce INT to zero and defeat the opponent.
+Confused Spectator: Ah, I think I get it now.
+Knowledgeable Spectator: If you understood, clap your hands; if you didn't, well, patience.

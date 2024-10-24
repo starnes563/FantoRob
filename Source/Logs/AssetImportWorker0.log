@@ -1,0 +1,137 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'pt' Physical Memory: 8072 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Denny/Documents/Batalha dos Robos
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51839
+Successfully changed project path to: C:/Users/Denny/Documents/Batalha dos Robos
+C:/Users/Denny/Documents/Batalha dos Robos
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 220.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Denny/Documents/Batalha dos Robos/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.5749
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.005424 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 238.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.627 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.050948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 246.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2020.2.1f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll disabled
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.540 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3682 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.2 MB.
+System memory in use after: 175.4 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4123.
+Total: 5.470900 ms (FindLiveObjects: 0.405200 ms CreateObjectMapping: 0.212500 ms MarkObjects: 4.789100 ms  DeleteObjects: 0.062000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Texto/CutScenes/Cutscene23/Dialogo23eng.txt
+  artifactKey: Guid(0bbb154d73b8ec44bbe53e751b0544dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene23/Dialogo23eng.txt using Guid(0bbb154d73b8ec44bbe53e751b0544dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc33cd66b464ecad232a1e6119f235b') in 0.068543 seconds
+  Import took 0.078035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Texto/CutScenes/Cutscene23/Dialogo23.txt
+  artifactKey: Guid(6abf0f5f12463ab4ab852d8fbb8500a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene23/Dialogo23.txt using Guid(6abf0f5f12463ab4ab852d8fbb8500a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3524bd5452a0036fd30a667ba77b04') in 0.007970 seconds
+  Import took 0.015962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.566947 seconds.
+  path: Assets/Texto/CutScenes/Cutscene23/Dialogo23eng.txt
+  artifactKey: Guid(0bbb154d73b8ec44bbe53e751b0544dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene23/Dialogo23eng.txt using Guid(0bbb154d73b8ec44bbe53e751b0544dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595c8b3d0fe62920124df9865e149984') in 0.003792 seconds
+  Import took 0.015406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Texto/CutScenes/Cutscene23/Dialogo23eng.txt
+  artifactKey: Guid(0bbb154d73b8ec44bbe53e751b0544dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene23/Dialogo23eng.txt using Guid(0bbb154d73b8ec44bbe53e751b0544dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595c8b3d0fe62920124df9865e149984') in 0.002715 seconds
+  Import took 0.011882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.319310 seconds.
+  path: Assets/Texto/CutScenes/Cutscene72/Dialogo72.txt
+  artifactKey: Guid(8ea1222938d8ee142ba79c6fecdfc1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene72/Dialogo72.txt using Guid(8ea1222938d8ee142ba79c6fecdfc1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf90f24a8ee9ed44882a19569208f0e') in 0.113687 seconds
+  Import took 0.122118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.674931 seconds.
+  path: Assets/Texto/CutScenes/Cutscene72/Dialogo72veng.txt
+  artifactKey: Guid(c83767a849711404a8cdc685c37872c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texto/CutScenes/Cutscene72/Dialogo72veng.txt using Guid(c83767a849711404a8cdc685c37872c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f925e1e4d001af269d0d17902e7baac9') in 0.048081 seconds
+  Import took 0.056137 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
